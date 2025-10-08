@@ -109,14 +109,14 @@ const Installed = () => {
                   <div className="flex items-center gap-3">
                     <p className="text-green-500 mb-4 flex items-center font-medium gap-1 text-sm md:text-xl">
                       <MdOutlineFileDownload className="h-5 w-5 " />
-                      {app.size}M
+                      {app.downloads}
                     </p>
                     <p className="text-amber-600 mb-4 flex items-center font-medium gap-1 text-sm md:text-xl">
                       <MdOutlineStar />
                       {app.ratings.length}
                     </p>
                     <p className="text-gray-600  mb-4 flex items-center font-medium gap-1 text-sm md:text-xl">
-                      {app.downloads}
+                      {app.size}MB
                     </p>
                   </div>
                 </div>
