@@ -1,8 +1,8 @@
 [
   {
     "id": 1,
-    "image": "https://ui-avatars.com/api/?name=TaskFlow+Pro&background=random&color=fff&size=256",
-    "title": "TaskFlow Pro",
+    "image": "https://ik.imagekit.io/2o23yla4n/assignment-8/Oxygen-Icons.org-Oxygen-Status-mail-task.256.png?updatedAt=1759939762778",
+    "title": "Task Flow Pro",
     "companyName": "Productivity Hub",
     "description": "Unlock your full potential with TaskFlow Pro, the ultimate task management solution designed for both personal and professional use. Go beyond simple lists by effortlessly organizing your projects with infinite nested tasks, setting custom priorities, and tracking crucial deadlines with smart reminders. Our real-time collaboration feature allows you to assign tasks, share files, and leave comments, ensuring your entire team stays on the same page. Integrate seamlessly with your favorite tools, including Google Calendar and Outlook, to bring all your commitments into one place. With fully customizable themes and powerful filtering options, TaskFlow Pro adapts to your workflow. Download today and transform the way you manage your life and work!",
     "size": 45,
@@ -19,7 +19,7 @@
   },
   {
     "id": 2,
-    "image": "https://ui-avatars.com/api/?name=Pixel+Runner&background=random&color=fff&size=256",
+    "image": "https://ik.imagekit.io/2o23yla4n/assignment-8/Gimilkhor-Adobe-Premiere-Pro-CS-3.256.png?updatedAt=1759937336365",
     "title": "Pixel Runner",
     "companyName": "GameStorm Studios",
     "description": "Dive into a nostalgic adventure with Pixel Runner! This action-packed endless runner features charming retro pixel art graphics and addictive, one-touch gameplay. Test your reflexes as you jump over obstacles, slide under barriers, and navigate through treacherous, procedurally generated levels that are different every time you play. Collect coins to unlock a roster of unique characters, each with special abilities, and grab powerful upgrades like shields and magnets. Compete with players worldwide on the global leaderboards and complete daily challenges for exciting rewards. It's a perfect blend of modern challenge and retro charm. How far can you run?",
@@ -37,7 +37,7 @@
   },
   {
     "id": 3,
-    "image": "https://ui-avatars.com/api/?name=Zenith+Weather&background=random&color=fff&size=256",
+    "image": "https://ik.imagekit.io/2o23yla4n/assignment-8/Oxygen-Icons.org-Oxygen-Status-weather-showers-day.256.png?updatedAt=1759937334683",
     "title": "Zenith Weather",
     "companyName": "Atmos Apps",
     "description": "Get hyper-local and incredibly accurate weather forecasts with Zenith Weather. Our app provides detailed hourly, daily, and 10-day forecasts with beautiful, intuitive visualizations that make understanding the weather easier than ever. Track storms with our real-time, high-definition radar map, receive severe weather alerts to stay safe, and customize widgets to see the weather information that matters most to you right on your home screen. Zenith Weather also provides air quality index (AQI) data and UV index warnings, giving you a complete picture of your environment. Plan your day with absolute confidence.",
@@ -55,8 +55,8 @@
   },
   {
     "id": 4,
-    "image": "https://ui-avatars.com/api/?name=CodeEditorX&background=random&color=fff&size=256",
-    "title": "CodeEditorX",
+    "image": "https://ik.imagekit.io/2o23yla4n/assignment-8/Papirus-Team-Papirus-Apps-Visual-studio-code.512.png?updatedAt=1759940292441",
+    "title": "Code Editor",
     "companyName": "DevTools Inc.",
     "description": "A lightweight yet powerful code editor designed for your mobile device. CodeEditorX supports syntax highlighting for over 50 languages, including Python, JavaScript, and HTML/CSS, with smart code completion to speed up your workflow. It features a clean, distraction-free interface with multiple themes, code snippet support, and robust search and replace functionality. For advanced users, it offers integration with Git for version control and supports connections to FTP, SFTP, and WebDAV servers. Whether you're making a quick edit or working on a larger project, this is the perfect tool for coding on the go.",
     "size": 60,
@@ -73,8 +73,8 @@
   },
   {
     "id": 5,
-    "image": "https://ui-avatars.com/api/?name=FitTrack&background=random&color=fff&size=256",
-    "title": "FitTrack",
+    "image": "https://ik.imagekit.io/2o23yla4n/assignment-8/Martz90-Circle-8tracks.512.png?updatedAt=1759937334593 ",
+    "title": "Fit Track",
     "companyName": "Wellness Tech",
     "description": "Your personal fitness companion is here to guide you on your health journey. Track your workouts with GPS for running and cycling, log your meals with our extensive food database of over 5 million items, and monitor your progress with detailed charts for weight, body fat, and measurements. FitTrack offers personalized workout plans created by certified trainers and provides nutrition advice tailored to your goals. You can also join community challenges to stay motivated. Sync with your favorite fitness devices like Apple Health and Google Fit for a complete, unified overview of your health.",
     "size": 75,
@@ -91,7 +91,7 @@
   },
   {
     "id": 6,
-    "image": "https://ui-avatars.com/api/?name=Photo+Enhance+AI&background=random&color=fff&size=256",
+    "image": "https://ik.imagekit.io/2o23yla4n/assignment-8/Itzikgur-My-Seven-Pictures-Canon.512.png?updatedAt=1759937337967",
     "title": "Photo Enhance AI",
     "companyName": "PixelPerfect",
     "description": "Transform your photos from ordinary to extraordinary with Photo Enhance AI. Our advanced artificial intelligence automatically adjusts color, brightness, and sharpness to bring out the best in every detail. Go further with powerful tools that allow you to remove unwanted objects, change backgrounds, and apply artistic filters. Our portrait mode can magically enhance facial features and smooth skin for a professional look. It's the simplest way to achieve complex edits and turn your everyday snapshots into stunning works of art.",
@@ -109,7 +109,7 @@
   },
   {
     "id": 7,
-    "image": "https://ui-avatars.com/api/?name=Mindful&background=random&color=fff&size=256",
+    "image": "https://ik.imagekit.io/2o23yla4n/assignment-8/Sicons-Basic-Round-Social-Mind-body-green.512.png?updatedAt=1759937335129",
     "title": "Mindful",
     "companyName": "Serenity Labs",
     "description": "Find your inner peace and build a lasting meditation practice with Mindful. Our app offers hundreds of guided meditations for managing stress, reducing anxiety, improving focus, and promoting restful sleep. Unwind with our curated library of calming sounds, nature soundscapes, and sleep stories narrated by soothing voices. Start your journey towards a calmer, happier you with daily mindfulness exercises, expert-led courses on topics like self-esteem, and unguided meditation timers for silent practice. Mindful is your personal sanctuary in a busy world.",
@@ -127,8 +127,8 @@
   },
   {
     "id": 8,
-    "image": "https://ui-avatars.com/api/?name=WalletWise&background=random&color=fff&size=256",
-    "title": "WalletWise",
+    "image": "https://ik.imagekit.io/2o23yla4n/assignment-8/Inipagi-Business-Economic-Wallet.512.png?updatedAt=1759937335728",
+    "title": "Walle tWise",
     "companyName": "Fintech Solutions",
     "description": "Take control of your personal finances with WalletWise. Our intuitive interface makes it easy to track your income and expenses across all your bank accounts and credit cards in one place. Create custom budgets that work for you, get intelligent insights into your spending habits with smart reports and categorization, and receive timely reminders for upcoming bills so you never miss a payment. Set and track your savings goals, from a vacation to a down payment. WalletWise is the smart, simple, and secure way to manage your money and achieve financial freedom.",
     "size": 35,
@@ -145,7 +145,7 @@
   },
   {
     "id": 9,
-    "image": "https://ui-avatars.com/api/?name=Galaxy+Defenders&background=random&color=fff&size=256",
+    "image": "https://ik.imagekit.io/2o23yla4n/assignment-8/Goodstuff-No-Nonsense-Free-Space-Galaxy.512.png?updatedAt=1759937336260",
     "title": "Galaxy Defenders",
     "companyName": "Cosmic Games",
     "description": "Prepare for an epic interstellar battle in Galaxy Defenders! Pilot your advanced starfighter through waves of alien invaders in this action-packed, top-down space shooter. Experience stunning graphics, intense gameplay, and face off against colossal, multi-stage boss battles that will test your skills. Upgrade your ship's cannons, missiles, and shields, and unlock powerful special abilities to turn the tide of battle. With multiple game modes, including a campaign and endless survival, the action never stops. The universe is counting on you, Defender!",
@@ -163,8 +163,8 @@
   },
   {
     "id": 10,
-    "image": "https://ui-avatars.com/api/?name=RecipeFinder&background=random&color=fff&size=256",
-    "title": "RecipeFinder",
+    "image": "https://ik.imagekit.io/2o23yla4n/assignment-8/Anabellafalivene-Cute-Folders-Folder-Raspberry.512.png?updatedAt=1759937338331",
+    "title": "Recipe Finder",
     "companyName": "Kitchen Creations",
     "description": "Find your next favorite meal with RecipeFinder, your ultimate cooking companion. Explore thousands of delicious recipes from around the world with easy-to-follow, step-by-step instructions and beautiful photos. Watch helpful video guides, create smart shopping lists with one tap, and save your favorite recipes into personalized collections. Our powerful search allows you to filter by ingredients you have on hand, dietary needs, or cuisine type. Whether you're a beginner cook or a seasoned chef, RecipeFinder has everything you need to create amazing dishes in your kitchen.",
     "size": 55,
@@ -181,7 +181,7 @@
   },
   {
     "id": 11,
-    "image": "https://ui-avatars.com/api/?name=Connect+Social&background=random&color=fff&size=256",
+    "image": "https://ik.imagekit.io/2o23yla4n/assignment-8/Aha-Soft-Standard-Portfolio-Receptionist.256.png?updatedAt=1759937334816",
     "title": "Connect Social",
     "companyName": "LinkUp Inc.",
     "description": "Welcome to Connect Social, a new social media experience built on privacy and meaningful connections. We offer a clutter-free, chronological feed with no algorithmic manipulation, so you see what you want to see. Share updates, photos, and stories with close friends using 'Circles' or your wider community with powerful privacy controls. We are committed to protecting your data with end-to-end encryption and will never sell it to advertisers. Join us and rediscover the joy of an authentic, positive, and private social networking experience.",
@@ -199,7 +199,7 @@
   },
   {
     "id": 12,
-    "image": "https://ui-avatars.com/api/?name=VPN+Shield&background=random&color=fff&size=256",
+    "image": "https://ik.imagekit.io/2o23yla4n/assignment-8/Paomedia-Small-N-Flat-Shield-ok.512.png?updatedAt=1759937334264",
     "title": "VPN Shield",
     "companyName": "SecureNet",
     "description": "Protect your online privacy and secure your internet connection with VPN Shield. Our service encrypts your data with military-grade AES-256 encryption, keeping you safe from hackers and snoops on public Wi-Fi. With our global network of high-speed servers in over 50 countries, you can browse with complete anonymity and access geo-restricted content. VPN Shield has a strict no-logs policy, meaning we never track or store your online activity. It's fast, secure, and incredibly easy to use – just one tap to connect. Enjoy a safer, more open internet experience today.",
@@ -217,7 +217,7 @@
   },
   {
     "id": 13,
-    "image": "https://ui-avatars.com/api/?name=AudioBook+Central&background=random&color=fff&size=256",
+    "image": "https://ik.imagekit.io/2o23yla4n/assignment-8/Papirus-Team-Papirus-Apps-Audiobook.512.png?updatedAt=1759937334145",
     "title": "AudioBook Central",
     "companyName": "ListenUp",
     "description": "Immerse yourself in captivating stories with AudioBook Central. Our massive library features bestsellers, new releases, and timeless classics across every genre, all narrated by world-class performers. Enjoy high-quality audio, adjustable narration speed, and a smart sleep timer that fades out for nighttime listening. Download your favorite books for offline access and listen on the go, with your progress synced across all devices. Discover your next great listen with personalized recommendations and curated collections from our editors.",
@@ -235,8 +235,8 @@
   },
   {
     "id": 14,
-    "image": "https://ui-avatars.com/api/?name=SkyView&background=random&color=fff&size=256",
-    "title": "SkyView",
+    "image": "https://ik.imagekit.io/2o23yla4n/assignment-8/Itzikgur-My-Seven-Travel-Airplane.512.png?updatedAt=1759937337665",
+    "title": "Sky View",
     "companyName": "Astro Labs",
     "description": "Explore the wonders of the universe with SkyView. This augmented reality app makes stargazing simple and magical. Just point your device at the sky to identify stars, constellations, planets, and even satellites like the ISS. Learn fascinating facts, mythology, and history about the celestial objects you see. SkyView's Time Travel feature allows you to see the sky on any date in the past or future. It's your personal guide to the night sky, perfect for astronomers of all ages, no telescope required.",
     "size": 120,
@@ -253,8 +253,8 @@
   },
   {
     "id": 15,
-    "image": "https://ui-avatars.com/api/?name=LearnLang&background=random&color=fff&size=256",
-    "title": "LearnLang",
+    "image": "https://ik.imagekit.io/2o23yla4n/assignment-8/Aniket-Suvarna-Box-Logo-Bxl-go-lang.512.png?updatedAt=1759937334360",
+    "title": "Learn Lang",
     "companyName": "EduGlobal",
     "description": "Start your journey to fluency with LearnLang. Our app makes learning a new language fun and effective with bite-sized, gamified lessons designed by language experts. Master vocabulary, grammar, and pronunciation through interactive exercises, listening practice, and conversations with our AI chatbot. Whether you're learning for travel, work, or personal growth, LearnLang helps you build practical communication skills that you can use in the real world. Track your progress, earn rewards, and join a global community of learners.",
     "size": 105,
@@ -271,7 +271,7 @@
   },
   {
     "id": 16,
-    "image": "https://ui-avatars.com/api/?name=QuickScan&background=random&color=fff&size=256",
+    "image": "https://ik.imagekit.io/2o23yla4n/assignment-8/Ionic-Ionicons-Scan-circle.512.png?updatedAt=1759939079511",
     "title": "QuickScan",
     "companyName": "Utility Apps",
     "description": "Turn your device into a powerful portable scanner with QuickScan. Digitize documents, receipts, whiteboards, and more with exceptional quality. Our smart technology automatically detects borders, corrects perspective, and enhances text for crisp, clear scans every time. Convert your scans to high-quality PDF or JPG files, and use our built-in OCR (Optical Character Recognition) to extract text for editing. Organize your scans in folders, add annotations, and share them easily via email or cloud services. The ultimate scanner in your pocket.",
@@ -289,7 +289,7 @@
   },
   {
     "id": 17,
-    "image": "https://ui-avatars.com/api/?name=Puzzle+Mania&background=random&color=fff&size=256",
+    "image": "https://ik.imagekit.io/2o23yla4n/assignment-8/Microsoft-Fluentui-Emoji-Flat-Puzzle-Piece-Flat.512.png?updatedAt=1759937335488",
     "title": "Puzzle Mania",
     "companyName": "Brainy Games",
     "description": "Challenge your mind with Puzzle Mania, the ultimate collection of brain-training puzzles. Enjoy thousands of levels of Sudoku, crosswords, word searches, nonograms, and logic puzzles. With multiple difficulty levels from beginner to expert, there's a challenge for everyone. The app features a clean, intuitive interface, helpful hints for when you get stuck, and detailed statistics to track your progress and best times. Keep your brain sharp and enjoy hours of stimulating fun with this essential all-in-one puzzle app.",
@@ -307,7 +307,7 @@
   },
   {
     "id": 18,
-    "image": "https://ui-avatars.com/api/?name=Streamly&background=random&color=fff&size=256",
+    "image": "https://ik.imagekit.io/2o23yla4n/assignment-8/Zyotism-2001-Space-Odyssey-Space-Pod-Betty.128.png?updatedAt=1759937335137",
     "title": "Streamly",
     "companyName": "MediaBox",
     "description": "Your ultimate entertainment destination. Streamly brings you thousands of movies and TV shows, from Hollywood blockbusters to indie gems and exclusive original content. Enjoy our vast library of on-demand content in stunning HD, create up to five user profiles for personalized recommendations, and download your favorites to watch offline. Our powerful search and curated collections help you discover your next favorite show. With new titles added every week, there's always something new to watch. Stream anytime, anywhere, on any device.",
@@ -325,7 +325,7 @@
   },
   {
     "id": 19,
-    "image": "https://ui-avatars.com/api/?name=DriveSim+Ultimate&background=random&color=fff&size=256",
+    "image": "https://ik.imagekit.io/2o23yla4n/assignment-8/Itzikgur-My-Seven-Programs-Windows-7.256.png?updatedAt=1759937336834",
     "title": "DriveSim Ultimate",
     "companyName": "Simulators Inc.",
     "description": "Get behind the wheel in DriveSim Ultimate, the most realistic car driving simulator on mobile. Experience stunningly detailed graphics, authentic car physics, and a massive open-world map with dynamic weather and day-night cycles. Master various driving challenges, from precision parking to high-speed racing. Collect and customize a wide range of real-world cars, and compete in online multiplayer races and events against players from around the globe. This game offers an unparalleled, immersive driving experience for all car enthusiasts.",
@@ -343,8 +343,8 @@
   },
   {
     "id": 20,
-    "image": "https://ui-avatars.com/api/?name=PodVerse&background=random&color=fff&size=256",
-    "title": "PodVerse",
+    "image": "https://ik.imagekit.io/2o23yla4n/assignment-8/Custom-Icon-Design-Flatastic-7-Sql-runner.512.png?updatedAt=1759937335158",
+    "title": "Pod Verse",
     "companyName": "AudioWave",
     "description": "Explore the universe of podcasts with PodVerse. Our app provides a clean and powerful platform to discover, subscribe to, and listen to your favorite podcasts. Enjoy smart recommendations based on your listening history, create custom playlists, and download episodes for offline listening. With advanced features like variable speed playback, silence trimming, and a sleep timer, PodVerse offers a superior listening experience tailored to you. Sync your subscriptions and playback progress across all your devices seamlessly.",
     "size": 48,
@@ -361,8 +361,8 @@
   },
   {
     "id": 21,
-    "image": "https://ui-avatars.com/api/?name=NoteNest&background=random&color=fff&size=256",
-    "title": "NoteNest",
+    "image": "https://ik.imagekit.io/2o23yla4n/assignment-8/Designcontest-Ecommerce-Business-Notes.256.png?updatedAt=1759937336768",
+    "title": "Note Nest",
     "companyName": "Digital Scribe Co.",
     "description": "Capture your thoughts, ideas, and inspirations with NoteNest, the beautifully simple yet powerful note-taking app. Organize your notes into customizable notebooks and add tags for easy searching. NoteNest supports rich text formatting, image attachments, checklists, and even audio recordings, making it a versatile tool for students, professionals, and creatives. Secure your private notes with a passcode or biometrics, and enjoy seamless, end-to-end encrypted sync across all your devices. From quick memos to detailed research, NoteNest is the perfect place for your ideas to grow.",
     "size": 58,
@@ -379,7 +379,7 @@
   },
   {
     "id": 22,
-    "image": "https://ui-avatars.com/api/?name=Artify&background=random&color=fff&size=256",
+    "image": "https://ik.imagekit.io/2o23yla4n/assignment-8/Iixo-Adobe-Cs3-Ar.256.png?updatedAt=1759937336802",
     "title": "Artify",
     "companyName": "Creative Canvas",
     "description": "Unleash your inner artist with Artify, a feature-rich digital drawing and painting studio for your device. Choose from a vast library of realistic brushes, including pencils, watercolors, and oils, all of which are highly customizable. Our advanced layer system, complete with blending modes, allows for complex compositions. Artify also includes powerful tools like perspective guides, symmetry tools, and shape tools. Whether you're a professional illustrator or a beginner looking to sketch, Artify provides everything you need to create beautiful digital art.",
@@ -397,8 +397,8 @@
   },
   {
     "id": 23,
-    "image": "https://ui-avatars.com/api/?name=StockFolio&background=random&color=fff&size=256",
-    "title": "StockFolio",
+    "image": "https://ik.imagekit.io/2o23yla4n/assignment-8/Fasticon-Hand-Draw-Iphone-Stocks.512.png?updatedAt=1759937336878",
+    "title": "Stock Folio",
     "companyName": "Market Insights Inc.",
     "description": "Track the stock market and manage your investments with confidence using StockFolio. Get real-time stock quotes, interactive charts, and the latest financial news from top sources. Build and monitor multiple portfolios, set custom price alerts, and screen for stocks using a wide range of technical and fundamental criteria. Our in-depth analysis tools and company profile data provide you with the insights you need to make informed investment decisions. StockFolio is the essential tool for both casual investors and seasoned traders.",
     "size": 75,
@@ -415,8 +415,8 @@
   },
   {
     "id": 24,
-    "image": "https://ui-avatars.com/api/?name=GeoQuest&background=random&color=fff&size=256",
-    "title": "GeoQuest",
+    "image": "https://ik.imagekit.io/2o23yla4n/assignment-8/Papirus-Team-Papirus-Apps-Audiobook.512.png?updatedAt=1759937334145",
+    "title": "Geo Quest",
     "companyName": "Reality Games",
     "description": "Explore the world around you in a whole new way with GeoQuest, a location-based augmented reality adventure game. Discover and collect mythical creatures that appear in the real world, battle other players in strategic duels at real-world locations, and team up with friends to take on epic raid bosses. GeoQuest turns your daily walk into an exciting journey of discovery and conquest. With regular events and new content added constantly, there's always a new adventure waiting just around the corner. Go outside and start your quest!",
     "size": 220,
@@ -433,8 +433,8 @@
   },
   {
     "id": 25,
-    "image": "https://ui-avatars.com/api/?name=TuneTutor&background=random&color=fff&size=256",
-    "title": "TuneTutor",
+    "image": "https://ik.imagekit.io/2o23yla4n/assignment-8/Igh0zt-Ios7-Style-Metro-Ui-MetroUI-Apps-Tune-Up-Utilities.512.png?updatedAt=1759937336629",
+    "title": "Tune Tutor",
     "companyName": "Melody Makers",
     "description": "Learn to play piano or guitar with TuneTutor, your personal music teacher. The app uses your device's microphone to listen to you play and gives you instant feedback on your accuracy and timing. Follow interactive lessons, learn to read sheet music, and practice thousands of popular songs from every genre. Whether you're an absolute beginner or looking to improve your skills, TuneTutor's step-by-step curriculum and fun practice games will keep you motivated. Start your musical journey today!",
     "size": 130,
@@ -451,8 +451,8 @@
   },
   {
     "id": 26,
-    "image": "https://ui-avatars.com/api/?name=EventHorizon&background=random&color=fff&size=256",
-    "title": "EventHorizon",
+    "image": "https://ik.imagekit.io/2o23yla4n/assignment-8/Martz90-Circle-Calendar.512.png?updatedAt=1759937336131",
+    "title": "Event Horizon",
     "companyName": "GoLive Ticketing",
     "description": "Discover, plan, and attend events happening near you with EventHorizon. Browse a personalized feed of concerts, festivals, workshops, and community gatherings. Buy tickets securely in just a few taps and access them directly from the app—no printing required. For event organizers, EventHorizon offers a simple platform to create and promote events, manage ticket sales, and check in attendees. It's the ultimate tool for connecting people with experiences they'll love. Find your next adventure with EventHorizon.",
     "size": 62,
@@ -469,8 +469,8 @@
   },
   {
     "id": 27,
-    "image": "https://ui-avatars.com/api/?name=CloudBox&background=random&color=fff&size=256",
-    "title": "CloudBox",
+    "image": "https://ik.imagekit.io/2o23yla4n/assignment-8/Pelfusion-Long-Shadow-Media-Cloud.512.png?updatedAt=1759937335702",
+    "title": "Cloud Box",
     "companyName": "Digital Vault Inc.",
     "description": "Securely store, manage, and share all your files, photos, and documents from anywhere with CloudBox. Get a generous amount of free storage and access your files across all your devices, including offline access for files you mark as favorites. Our powerful sharing features allow you to send large files easily, set permissions, and collaborate on documents in real-time. With automatic camera uploads and advanced end-to-end encryption, CloudBox keeps your digital life safe and organized. Simplify your storage and access what matters, whenever you need it.",
     "size": 85,
@@ -487,8 +487,8 @@
   },
   {
     "id": 28,
-    "image": "https://ui-avatars.com/api/?name=HomeChef&background=random&color=fff&size=256",
-    "title": "HomeChef",
+    "image": "https://ik.imagekit.io/2o23yla4n/assignment-8/Blackvariant-Button-Ui-System-Folders-Alt-Home.512.png?updatedAt=1759937336089",
+    "title": "Home Chef",
     "companyName": "Meal planners",
     "description": "Take the stress out of mealtime with HomeChef. Plan your weekly meals with our easy-to-use calendar and discover thousands of new recipes based on your dietary preferences. HomeChef automatically generates a smart grocery list from your meal plan, categorized by aisle to make your shopping trip faster. It even helps you reduce food waste by suggesting recipes that use ingredients you already have. Get inspired, save money, and enjoy delicious home-cooked meals every day.",
     "size": 90,
@@ -505,8 +505,8 @@
   },
   {
     "id": 29,
-    "image": "https://ui-avatars.com/api/?name=EchoRead&background=random&color=fff&size=256",
-    "title": "EchoRead",
+    "image": "https://ik.imagekit.io/2o23yla4n/assignment-8/Hopstarter-Soft-Scraps-Clipboard-Paste.256.png?updatedAt=1759940204991",
+    "title": "Echo Read",
     "companyName": "Vocalize Tech",
     "description": "Listen to any text, document, or article with EchoRead, the advanced text-to-speech reader. Use your camera to scan physical book pages or import PDFs, emails, and web articles directly into the app. Choose from a wide variety of natural-sounding AI voices in multiple languages and adjust the reading speed to your liking. EchoRead is perfect for multitasking, learning, and for individuals with reading difficulties. Turn your reading material into an audiobook and be productive on the go.",
     "size": 115,
@@ -523,8 +523,8 @@
   },
   {
     "id": 30,
-    "image": "https://ui-avatars.com/api/?name=CarDash&background=random&color=fff&size=256",
-    "title": "CarDash",
+    "image": "https://ik.imagekit.io/2o23yla4n/assignment-8/Graphicloads-Colorful-Long-Shadow-Car.256.png?updatedAt=1759937335291",
+    "title": "Car Dash",
     "companyName": "AutoMate Apps",
     "description": "Keep your car in peak condition with CarDash, the ultimate car maintenance and management app. Track your fuel economy, log your service history, and get timely reminders for important maintenance like oil changes and tire rotations. Connect an OBD-II scanner to read and diagnose check engine light codes directly from the app. CarDash helps you understand your vehicle's health, save money on repairs, and increase its resale value. It's the essential app for every car owner.",
     "size": 70,
