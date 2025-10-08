@@ -60,7 +60,7 @@ const Installed = () => {
             onChange={(e) => setSortOrder(e.target.value)}
             className="w-full py-2 px-3 border border-gray-300 rounded-md bg-white text-gray-700 shadow-sm focus:outline-none focus:border-blue-500 focus:ring-2 focus:ring-blue-200 transition duration-200 cursor-pointer hover:border-blue-400"
           >
-            <option value="all">All</option>
+            <option value="all">Sort By Size</option>
             <option value="asc">Low - High</option>
             <option value="desc">High - Low</option>
           </select>

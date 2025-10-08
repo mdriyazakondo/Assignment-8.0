@@ -31,7 +31,6 @@ const Apps = () => {
     fetchData();
   }, []);
 
-
   useEffect(() => {
     if (search.trim() !== "") {
       setLoading(true);
@@ -42,23 +41,21 @@ const Apps = () => {
     }
   }, [search]);
 
-
   const allData = data.filter((item) =>
     item.title.toLowerCase().includes(search.trim().toLowerCase())
   );
-
 
   return (
     <div className="bg-[#f5f5f5] py-17 min-h-screen ">
       {loading ? (
         <Loading />
       ) : (
-        <div className="max-w-[1500px] mx-auto">
+        <div className="max-w-[1500px] mx-5 md:mx-auto">
           <div>
             <h2 className="text-3xl font-bold text-center">
               Our All Applications
             </h2>
-            <p className="text-gray-600 text-xl font-medium text-center">
+            <p className="text-gray-600 text-sm md:text-xl font-medium text-center">
               Explore All Apps on the Market developed by us. We code for
               Millions.
             </p>
@@ -69,7 +66,7 @@ const Apps = () => {
               ({allData.length}) Apps Found
             </h3>
 
-            <div className="w-1/3 flex flex-col relative">
+            <div className="w-2/4 md:w-1/3 flex flex-col relative">
               <input
                 type="search"
                 value={search}

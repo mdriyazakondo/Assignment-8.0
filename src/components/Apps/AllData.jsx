@@ -3,18 +3,17 @@ import { MdOutlineFileDownload, MdOutlineStar } from "react-icons/md";
 import { Link } from "react-router";
 
 const AllData = ({ item }) => {
-  const {
-    image,
-    title,
-    ratingAvg,
-    downloads,
-  } = item;
+  const { image, title, ratingAvg, downloads } = item;
 
   return (
-    <div>
+    <div className="">
       <div className="shadow p-4 rounded-md bg-gray-100 ">
         <Link to={`/app/${item.id}`}>
-          <img className="h-[250px] rounded-md w-full" src={image} alt="" />
+          <img
+            className="h-[250px] rounded-md w-full px-10 py-6"
+            src={image}
+            alt=""
+          />
         </Link>
         <div className="space-y-3  pt-4">
           <h2 className="text-2xl font-semibold text-gray-700 ">{title}</h2>

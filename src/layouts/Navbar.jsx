@@ -13,7 +13,6 @@ const Navbar = () => {
   const location = useLocation();
   const [isOpen, setIsOpen] = useState(false);
 
-
   const isLinkActive = (path) => {
     return (
       location.pathname === path || location.pathname.startsWith(path + "/")
@@ -21,7 +20,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="fixed top-0 left-0 right-0 z-50">
+    <div className="fixed top-0 left-0 right-0 z-50 ">
       <div className="py-3 shadow bg-white">
         <div className="flex items-center justify-between max-w-[1500px] mx-auto px-4">
           <Link to={"/"}>
@@ -36,16 +35,17 @@ const Navbar = () => {
           <nav className="hidden md:block">
             <ul className="flex items-center gap-6">
               {navLinks.map((link, i) => (
-                <li
-                  key={i}
-                  className={`font-medium text-xl pb-2 ${
-                    isLinkActive(link.path)
-                      ? "text-[#8452e9] border-b-2 border-[#8452e9]"
-                      : "text-gray-600"
-                  }`}
-                >
-                  <Link to={link.path}>{link.name}</Link>
-                </li>
+                <Link to={link.path} key={i}>
+                  <li
+                    className={`font-medium text-xl pb-2 ${
+                      isLinkActive(link.path)
+                        ? "text-[#8452e9] border-b-2 border-[#8452e9]"
+                        : "text-gray-600"
+                    }`}
+                  >
+                    {link.name}
+                  </li>
+                </Link>
               ))}
             </ul>
           </nav>
@@ -74,20 +74,25 @@ const Navbar = () => {
       </div>
 
       {isOpen && (
-        <nav className="md:hidden block shadow bg-gray-100">
+        <nav
+          className="md:hidden block shadow bg-gray-100 absolute right-0 w-[200px] h-[200px] pl-4
+        "
+        >
           <ul className="flex flex-col items-start gap-4 p-4">
             {navLinks.map((link, i) => (
-              <li
-                key={i}
-                className={`font-medium text-xl pb-2 w-full ${
-                  isLinkActive(link.path)
-                    ? "text-[#8452e9] border-b-2 border-[#8452e9]"
-                    : "text-gray-600"
-                }`}
-                onClick={() => setIsOpen(false)} 
-              >
-                <Link to={link.path}>{link.name}</Link>
-              </li>
+              <Link to={link.path}>
+                <li
+                  key={i}
+                  className={`font-medium text-xl pb-2 w-full ${
+                    isLinkActive(link.path)
+                      ? "text-[#8452e9] border-b-2 border-[#8452e9]"
+                      : "text-gray-600"
+                  }`}
+                  onClick={() => setIsOpen(false)}
+                >
+                  {link.name}
+                </li>
+              </Link>
             ))}
           </ul>
         </nav>

@@ -31,7 +31,7 @@ const Trending = () => {
       {loading ? (
         <Loading />
       ) : (
-        <div className="max-w-[1500px] mx-auto">
+        <div className="max-w-[1500px] mx-5 md:mx-auto">
           <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-center">
             Trending Apps
           </h2>
