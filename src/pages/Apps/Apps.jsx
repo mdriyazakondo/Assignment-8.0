@@ -1,0 +1,117 @@
+import React, { useEffect, useState } from "react";
+import AllData from "../../components/Apps/AllData";
+import Loading from "../../components/Loading/Loading";
+import { useNavigate } from "react-router";
+
+const Apps = () => {
+  const [data, setData] = useState([]);
+  const [search, setSearch] = useState("");
+  const [loading, setLoading] = useState(false);
+  const navigate = useNavigate();
+  // 🔹 Fetch data initially
+  useEffect(() => {
+    const fetchData = async () => {
+      setLoading(true);
+
+      const delay = new Promise((resolve) => setTimeout(resolve, 800));
+      try {
+        const res = await fetch("/app.json");
+        const data = await res.json();
+        setData(data);
+        await delay;
+      } catch (err) {
+        console.error(err);
+        await delay;
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    fetchData();
+  }, []);
+
+  // 🔹 Show loading while typing/searching
+  useEffect(() => {
+    if (search.trim() !== "") {
+      setLoading(true);
+      const timeout = setTimeout(() => {
+        setLoading(false);
+      }, 800);
+      return () => clearTimeout(timeout);
+    }
+  }, [search]);
+
+  // 🔹 Filter apps by search term
+  const allData = data.filter((item) =>
+    item.title.toLowerCase().includes(search.trim().toLowerCase())
+  );
+
+  // 🔹 Main render
+  return (
+    <div className="bg-[#f5f5f5] pt-17 min-h-screen">
+      {loading ? (
+        <Loading />
+      ) : (
+        <div className="max-w-[1500px] mx-auto">
+          <div>
+            <h2 className="text-3xl font-bold text-center">
+              Our All Applications
+            </h2>
+            <p className="text-gray-600 text-xl font-medium text-center">
+              Explore All Apps on the Market developed by us. We code for
+              Millions.
+            </p>
+          </div>
+
+          <div className="flex items-center justify-between mt-8">
+            <h3 className="text-2xl font-semibold">
+              ({allData.length}) Apps Found
+            </h3>
+
+            <div className="w-1/3 flex flex-col">
+              <input
+                type="search"
+                value={search}
+                onChange={(e) => setSearch(e.target.value)}
+                className="w-full py-2 px-4 border border-gray-300 rounded-md outline-none focus:border-blue-500 focus:ring-2 focus:ring-blue-200 transition duration-200"
+                placeholder="Search app..."
+              />
+            </div>
+          </div>
+
+          {/* 🔹 যদি কিছু না মেলে */}
+          {allData.length === 0 ? (
+            <div className="flex flex-col items-center justify-center mt-10">
+              <img
+                src="/assets/App-Error.png"
+                alt="No Apps Found"
+                className="w-72 h-72 object-contain"
+              />
+              <h2 className="text-gray-800 text-4xl font-bold mt-4">
+                OPPS!! APP NOT FOUND
+              </h2>
+              <p className="text-gray-500 text-lg mt-4">
+                The App you are requesting is not found on our system. please
+                try another apps
+              </p>
+              <button
+                onClick={() => navigate(-1)}
+                className="py-2 px-8 rounded-md bg-purple-600 text-white font-semibold mt-6 cursor-pointer"
+              >
+                Go Back
+              </button>
+            </div>
+          ) : (
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mt-4 md:mt-6 lg:mt-8">
+              {allData.map((item) => (
+                <AllData key={item.id} item={item} />
+              ))}
+            </div>
+          )}
+        </div>
+      )}
+    </div>
+  );
+};
+
+export default Apps;

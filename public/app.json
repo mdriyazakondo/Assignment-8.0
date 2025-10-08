@@ -1,0 +1,542 @@
+[
+  {
+    "image": "https://example.com/images/app1.png",
+    "title": "Photo Editor Pro",
+    "companyName": "Creative Labs Inc",
+    "id": 1,
+    "description": "Photo Editor Pro is a comprehensive mobile application that offers powerful editing tools for photographers and enthusiasts. With an intuitive interface, users can easily adjust brightness, contrast, saturation, and apply various filters to enhance their images. The app includes advanced features like layer editing, selective color adjustment, and professional-grade retouching tools. Users can remove unwanted objects, smooth skin, whiten teeth, and add artistic effects with just a few taps. The batch processing feature allows editing multiple photos simultaneously, saving valuable time. Regular updates introduce new filters and tools based on user feedback. Cloud integration enables seamless synchronization across devices, ensuring your edits are always accessible.",
+    "size": 85,
+    "reviews": 12500,
+    "ratingAvg": 4.5,
+    "downloads": 500,
+    "ratings": [
+      { "name": "1 star", "count": 3000 },
+      { "name": "2 star", "count": 5000 },
+      { "name": "3 star", "count": 7500 },
+      { "name": "4 star", "count": 10000 },
+      { "name": "5 star", "count": 12000 }
+    ]
+  },
+  {
+    "image": "https://example.com/images/app2.png",
+    "title": "Finance Tracker Plus",
+    "companyName": "MoneyMatters Corp",
+    "id": 2,
+    "description": "Finance Tracker Plus is an all-in-one financial management application designed to help users take control of their money. The app provides detailed expense tracking, budget planning, bill reminders, and investment portfolio monitoring. Users can connect their bank accounts for automatic transaction imports and categorization. Advanced reporting features generate comprehensive charts and graphs showing spending patterns over time. The budget calculator helps set realistic financial goals and tracks progress toward achieving them. Security is paramount with bank-level encryption and biometric authentication. The app also offers personalized financial tips and investment recommendations based on user behavior and market trends.",
+    "size": 42,
+    "reviews": 8900,
+    "ratingAvg": 4.3,
+    "downloads": 250,
+    "ratings": [
+      { "name": "1 star", "count": 3000 },
+      { "name": "2 star", "count": 5000 },
+      { "name": "3 star", "count": 7500 },
+      { "name": "4 star", "count": 10000 },
+      { "name": "5 star", "count": 12000 }
+    ]
+  },
+  {
+    "image": "https://example.com/images/app3.png",
+    "title": "Fitness Workout Coach",
+    "companyName": "HealthTech Solutions",
+    "id": 3,
+    "description": "Fitness Workout Coach offers personalized training programs for users of all fitness levels. The app features hundreds of guided workout videos, from beginner routines to advanced training sessions. AI-powered algorithms create custom workout plans based on user goals, available equipment, and time constraints. Integrated nutrition tracking helps monitor calorie intake and macronutrient balance. The community feature allows users to connect with friends, join challenges, and share progress. Real-time form correction using smartphone cameras ensures exercises are performed safely and effectively. Workout reminders and achievement badges keep users motivated throughout their fitness journey. The app syncs with popular wearables to track heart rate, steps, and sleep patterns.",
+    "size": 120,
+    "reviews": 15600,
+    "ratingAvg": 4.7,
+    "downloads": 380,
+    "ratings": [
+      { "name": "1 star", "count": 3000 },
+      { "name": "2 star", "count": 5000 },
+      { "name": "3 star", "count": 7500 },
+      { "name": "4 star", "count": 10000 },
+      { "name": "5 star", "count": 12000 }
+    ]
+  },
+  {
+    "image": "https://example.com/images/app4.png",
+    "title": "Language Learning Master",
+    "companyName": "Global Education Tech",
+    "id": 4,
+    "description": "Language Learning Master makes acquiring new languages engaging and effective through scientifically-proven methods. The app offers courses in over 30 languages with interactive lessons, speech recognition technology, and conversational practice. Gamified learning experiences include points, levels, and daily streaks to maintain motivation. Native speaker audio ensures proper pronunciation from the beginning. The vocabulary builder uses spaced repetition to optimize memory retention. Cultural notes provide context about customs and traditions in countries where the language is spoken. Offline mode allows learning without internet connection, perfect for commuting or traveling. Progress tracking shows improvement over time and identifies areas needing more practice.",
+    "size": 78,
+    "reviews": 21000,
+    "ratingAvg": 4.6,
+    "downloads": 720,
+    "ratings": [
+      { "name": "1 star", "count": 3000 },
+      { "name": "2 star", "count": 5000 },
+      { "name": "3 star", "count": 7500 },
+      { "name": "4 star", "count": 10000 },
+      { "name": "5 star", "count": 12000 }
+    ]
+  },
+  {
+    "image": "https://example.com/images/app5.png",
+    "title": "Recipe Collection Pro",
+    "companyName": "Culinary Innovations",
+    "id": 5,
+    "description": "Recipe Collection Pro is the ultimate kitchen companion for home cooks and professional chefs alike. The app features thousands of recipes from around the world, with step-by-step video instructions and detailed ingredient lists. Smart shopping lists automatically generate based on selected recipes and can be shared with family members. Dietary preference filters accommodate vegetarian, vegan, gluten-free, keto, and other nutritional needs. The meal planner helps organize weekly menus and reduces food waste. Cooking timers ensure perfect results for every dish. Users can save their own family recipes, add notes, and create custom collections. The seasonal recipe suggestions highlight fresh, in-season ingredients for optimal flavor and nutrition.",
+    "size": 65,
+    "reviews": 9800,
+    "ratingAvg": 4.4,
+    "downloads": 190,
+    "ratings": [
+      { "name": "1 star", "count": 3000 },
+      { "name": "2 star", "count": 5000 },
+      { "name": "3 star", "count": 7500 },
+      { "name": "4 star", "count": 10000 },
+      { "name": "5 star", "count": 12000 }
+    ]
+  },
+  {
+    "image": "https://example.com/images/app6.png",
+    "title": "Sleep Meditation Guide",
+    "companyName": "Mindful Living Apps",
+    "id": 6,
+    "description": "Sleep Meditation Guide helps users achieve better sleep through guided meditations, calming sounds, and bedtime stories. The app features sleep tracking to monitor sleep patterns and provide personalized recommendations. Soothing nature sounds and binaural beats create the perfect environment for relaxation. Breathing exercises help calm the mind before bedtime. The smart alarm wakes users during light sleep phases for more refreshed mornings. Sleep statistics show trends over time and suggest improvements. Customizable meditation lengths accommodate different schedules. The library includes content for specific needs like stress reduction, anxiety management, and lucid dreaming. All content is created by certified meditation instructors and sleep specialists.",
+    "size": 55,
+    "reviews": 13400,
+    "ratingAvg": 4.8,
+    "downloads": 310,
+    "ratings": [
+      { "name": "1 star", "count": 3000 },
+      { "name": "2 star", "count": 5000 },
+      { "name": "3 star", "count": 7500 },
+      { "name": "4 star", "count": 10000 },
+      { "name": "5 star", "count": 12000 }
+    ]
+  },
+  {
+    "image": "https://example.com/images/app7.png",
+    "title": "Travel Planner Expert",
+    "companyName": "Wanderlust Technologies",
+    "id": 7,
+    "description": "Travel Planner Expert simplifies trip planning with comprehensive tools for itinerary creation, budget management, and destination research. The app aggregates reviews from multiple sources to provide unbiased recommendations for hotels, restaurants, and attractions. Offline maps ensure navigation works without data connection. Currency converter automatically updates exchange rates. The packing checklist generator creates customized lists based on destination, season, and trip duration. Real-time flight status updates and gate changes keep travelers informed. Integrated booking system allows reserving accommodations and activities within the app. Travel expense tracker helps stick to budget while on the road. The community section enables sharing travel experiences and tips with other users.",
+    "size": 92,
+    "reviews": 7600,
+    "ratingAvg": 4.2,
+    "downloads": 160,
+    "ratings": [
+      { "name": "1 star", "count": 3000 },
+      { "name": "2 star", "count": 5000 },
+      { "name": "3 star", "count": 7500 },
+      { "name": "4 star", "count": 10000 },
+      { "name": "5 star", "count": 12000 }
+    ]
+  },
+  {
+    "image": "https://example.com/images/app8.png",
+    "title": "Music Production Studio",
+    "companyName": "AudioTech Creations",
+    "id": 8,
+    "description": "Music Production Studio turns mobile devices into powerful recording studios with professional-grade tools. The app features multi-track recording, virtual instruments, effects processors, and mixing capabilities. The sound library includes hundreds of royalty-free loops and samples across various genres. MIDI controller support enables connection with external hardware. Automated mastering tools optimize tracks for different platforms like Spotify and YouTube. Collaboration features allow multiple users to work on projects simultaneously from different locations. The intuitive interface makes professional music production accessible to beginners while offering advanced options for experienced producers. Regular content updates add new instruments and effects. Tutorial videos guide users through music production techniques and sound design principles.",
+    "size": 210,
+    "reviews": 5200,
+    "ratingAvg": 4.5,
+    "downloads": 120,
+    "ratings": [
+      { "name": "1 star", "count": 3000 },
+      { "name": "2 star", "count": 5000 },
+      { "name": "3 star", "count": 7500 },
+      { "name": "4 star", "count": 10000 },
+      { "name": "5 star", "count": 12000 }
+    ]
+  },
+  {
+    "image": "https://example.com/images/app9.png",
+    "title": "Plant Care Assistant",
+    "companyName": "Green Thumb Apps",
+    "id": 9,
+    "description": "Plant Care Assistant helps gardening enthusiasts keep their plants healthy and thriving. The app identifies plants through camera recognition and provides detailed care instructions for each species. Custom watering schedules account for plant type, pot size, season, and local climate conditions. The disease diagnosis feature helps identify common plant problems and suggests treatments. The community forum connects users with gardening experts for personalized advice. Seasonal gardening tips guide users through planting, pruning, and fertilizing schedules. The plant journal allows tracking growth progress with photos and notes. Reminders for repotting, fertilizing, and pest prevention ensure plants receive comprehensive care. The database includes information on thousands of plant varieties from common houseplants to exotic species.",
+    "size": 48,
+    "reviews": 11300,
+    "ratingAvg": 4.7,
+    "downloads": 240,
+    "ratings": [
+      { "name": "1 star", "count": 3000 },
+      { "name": "2 star", "count": 5000 },
+      { "name": "3 star", "count": 7500 },
+      { "name": "4 star", "count": 10000 },
+      { "name": "5 star", "count": 12000 }
+    ]
+  },
+  {
+    "image": "https://example.com/images/app10.png",
+    "title": "Budget Meal Planner",
+    "companyName": "Smart Cooking Solutions",
+    "id": 10,
+    "description": "Budget Meal Planner helps families and individuals save money while eating healthy, delicious meals. The app creates customized meal plans based on budget constraints, dietary preferences, and nutritional goals. The smart algorithm suggests recipes using ingredients that are on sale at local grocery stores. Waste reduction features recommend meals that use leftover ingredients. Nutritional analysis ensures balanced meals meeting dietary requirements. The price comparison tool finds the best deals across multiple stores. Batch cooking instructions help prepare meals for the entire week efficiently. The pantry inventory tracker suggests recipes based on available ingredients. Shopping list optimization groups items by store section for efficient shopping. Seasonal eating recommendations highlight affordable, fresh produce throughout the year.",
+    "size": 61,
+    "reviews": 8700,
+    "ratingAvg": 4.4,
+    "downloads": 180,
+    "ratings": [
+      { "name": "1 star", "count": 3000 },
+      { "name": "2 star", "count": 5000 },
+      { "name": "3 star", "count": 7500 },
+      { "name": "4 star", "count": 10000 },
+      { "name": "5 star", "count": 12000 }
+    ]
+  },
+  {
+    "image": "https://example.com/images/app11.png",
+    "title": "Daily Journal Pro",
+    "companyName": "Mindfulness Apps LLC",
+    "id": 11,
+    "description": "Daily Journal Pro provides a secure, intuitive platform for personal reflection and memory keeping. The app features multiple journal types including gratitude journals, dream diaries, travel logs, and project trackers. Rich text formatting, photo attachments, and voice recordings enhance entries. Mood tracking with customizable tags helps identify emotional patterns over time. Password protection and biometric locking ensure privacy. Search functionality quickly finds specific entries by date, tags, or content. Writing prompts combat journaling block and inspire reflection. Export options create beautiful PDF keepsakes. Cloud backup prevents data loss. The statistics dashboard visualizes writing habits and mood trends. Templates for different journaling styles help users get started quickly and maintain consistency.",
+    "size": 37,
+    "reviews": 6400,
+    "ratingAvg": 4.6,
+    "downloads": 150,
+    "ratings": [
+      { "name": "1 star", "count": 3000 },
+      { "name": "2 star", "count": 5000 },
+      { "name": "3 star", "count": 7500 },
+      { "name": "4 star", "count": 10000 },
+      { "name": "5 star", "count": 12000 }
+    ]
+  },
+  {
+    "image": "https://example.com/images/app12.png",
+    "title": "Code Learning Hub",
+    "companyName": "Tech Education Pro",
+    "id": 12,
+    "description": "Code Learning Hub makes programming education accessible to everyone through interactive lessons and real-world projects. The app offers courses in popular languages like Python, JavaScript, Java, and Swift. The built-in code editor allows practicing directly within the app with instant feedback. Project-based learning approach helps build portfolio pieces while learning. The community feature enables code review and collaboration with other learners. Interview preparation modules cover common technical questions and whiteboard challenges. The progress tracker shows skill development across different programming concepts. Offline learning mode ensures education continues without internet access. Regular coding challenges and hackathons keep skills sharp. Career guidance helps transition into tech roles with resume building and job search assistance.",
+    "size": 88,
+    "reviews": 14200,
+    "ratingAvg": 4.5,
+    "downloads": 290,
+    "ratings": [
+      { "name": "1 star", "count": 3000 },
+      { "name": "2 star", "count": 5000 },
+      { "name": "3 star", "count": 7500 },
+      { "name": "4 star", "count": 10000 },
+      { "name": "5 star", "count": 12000 }
+    ]
+  },
+  {
+    "image": "https://example.com/images/app13.png",
+    "title": "Weather Forecast Pro",
+    "companyName": "Climate Data Systems",
+    "id": 13,
+    "description": "Weather Forecast Pro delivers accurate, detailed weather information with advanced forecasting features. The app provides hyperlocal weather data with minute-by-minute precipitation forecasts. Severe weather alerts warn of storms, floods, and other dangerous conditions. The radar map shows real-time precipitation, temperature, and wind patterns. Historical weather data helps plan activities based on seasonal patterns. Customizable widgets display key information on home screens. The agriculture module offers specialized forecasts for farming activities. Air quality index monitoring helps manage outdoor activities for sensitive individuals. The travel weather feature provides forecasts for destinations worldwide. Weather data sources include multiple meteorological services for maximum accuracy. The clean, customizable interface presents information clearly without clutter.",
+    "size": 44,
+    "reviews": 19800,
+    "ratingAvg": 4.3,
+    "downloads": 560,
+    "ratings": [
+      { "name": "1 star", "count": 30000 },
+      { "name": "2 star", "count": 5000 },
+      { "name": "3 star", "count": 7500 },
+      { "name": "4 star", "count": 10000 },
+      { "name": "5 star", "count": 12000 }
+    ]
+  },
+  {
+    "image": "https://example.com/images/app14.png",
+    "title": "Puzzle Game Collection",
+    "companyName": "Brain Training Games",
+    "id": 14,
+    "description": "Puzzle Game Collection offers hundreds of brain-teasing games designed to improve cognitive skills while providing entertainment. The app includes classic puzzles like sudoku, crosswords, and word searches alongside original games created by puzzle masters. Difficulty levels range from beginner to expert, accommodating all skill levels. Daily challenges keep content fresh and encourage regular play. The statistics tracker monitors improvement in problem-solving speed and accuracy. Multiplayer modes allow competing with friends and family. Offline play ensures entertainment anywhere without internet connection. New puzzles added weekly prevent repetition. The clean, distraction-free interface focuses attention on solving challenges. Customizable themes reduce eye strain during extended play sessions. Research-based game design ensures cognitive benefits across memory, logic, and pattern recognition skills.",
+    "size": 72,
+    "reviews": 12500,
+    "ratingAvg": 4.7,
+    "downloads": 330,
+    "ratings": [
+      { "name": "1 star", "count": 3000 },
+      { "name": "2 star", "count": 5000 },
+      { "name": "3 star", "count": 7500 },
+      { "name": "4 star", "count": 10000 },
+      { "name": "5 star", "count": 12000 }
+    ]
+  },
+  {
+    "image": "https://example.com/images/app15.png",
+    "title": "Home Workout Trainer",
+    "companyName": "Fitness Innovation Co",
+    "id": 15,
+    "description": "Home Workout Trainer provides effective exercise routines requiring minimal or no equipment, perfect for home fitness. The app features bodyweight exercises, yoga flows, high-intensity interval training, and stretching routines. Video demonstrations ensure proper form for each exercise. Personalized workout plans adapt based on fitness level, goals, and available time. The progress photo feature visually tracks physical changes over weeks and months. Integration with health apps syncs workout data with other fitness metrics. The calendar view helps schedule workouts and maintain consistency. Achievement system rewards reaching milestones and maintaining streaks. The exercise library includes variations for different skill levels and physical limitations. Music integration allows playing personal playlists during workouts. The community challenges add motivation through friendly competition.",
+    "size": 95,
+    "reviews": 16700,
+    "ratingAvg": 4.6,
+    "downloads": 410,
+    "ratings": [
+      { "name": "1 star", "count": 3000 },
+      { "name": "2 star", "count": 5000 },
+      { "name": "3 star", "count": 7500 },
+      { "name": "4 star", "count": 10000 },
+      { "name": "5 star", "count": 12000 }
+    ]
+  },
+  {
+    "image": "https://example.com/images/app16.png",
+    "title": "Expense Split Calculator",
+    "companyName": "Group Finance Tools",
+    "id": 16,
+    "description": "Expense Split Calculator simplifies sharing costs among friends, roommates, and family members. The app tracks group expenses, calculates who owes whom, and suggests optimal settlement methods. Receipt scanning automatically extracts amounts and participants. Multiple currency support with automatic conversion rates. The history feature maintains records of past shared expenses for reference. Integration with payment apps enables quick settlements. The budget tracking helps groups stay within spending limits for shared activities. Custom splitting options accommodate unequal divisions and partial participations. The debt simplification algorithm finds the minimum number of transactions to settle all balances. Offline functionality ensures usability without internet connection. Data export creates reports for accounting purposes. The intuitive interface makes managing group finances straightforward and transparent.",
+    "size": 39,
+    "reviews": 7200,
+    "ratingAvg": 4.4,
+    "downloads": 170,
+    "ratings": [
+      { "name": "1 star", "count": 3000 },
+      { "name": "2 star", "count": 5000 },
+      { "name": "3 star", "count": 7500 },
+      { "name": "4 star", "count": 10000 },
+      { "name": "5 star", "count": 12000 }
+    ]
+  },
+  {
+    "image": "https://example.com/images/app17.png",
+    "title": "Music Recognition Pro",
+    "companyName": "Audio Recognition Tech",
+    "id": 17,
+    "description": "Music Recognition Pro instantly identifies songs playing in the environment and provides detailed information about artists, albums, and lyrics. The app maintains a history of all recognized tracks for future reference. Offline recognition mode works without internet connection by storing audio fingerprints for later identification. The concert tracking feature notifies users when identified artists are performing nearby. Lyrics display syncs with music playback for sing-along enjoyment. Integration with music streaming services allows adding identified songs to playlists. The statistics dashboard shows listening habits and most frequently identified artists. Social features enable sharing discovered music with friends. The sleep timer automatically stops recognition after set duration. Background recognition continuously identifies music in cafes, stores, and other environments. High accuracy rates even with background noise and poor audio quality.",
+    "size": 53,
+    "reviews": 18900,
+    "ratingAvg": 4.8,
+    "downloads": 480,
+    "ratings": [
+      { "name": "1 star", "count": 3000 },
+      { "name": "2 star", "count": 5000 },
+      { "name": "3 star", "count": 7500 },
+      { "name": "4 star", "count": 10000 },
+      { "name": "5 star", "count": 12000 }
+    ]
+  },
+  {
+    "image": "https://example.com/images/app18.png",
+    "title": "Document Scanner Plus",
+    "companyName": "Productivity Tools Inc",
+    "id": 18,
+    "description": "Document Scanner Plus transforms smartphones into powerful portable scanners for documents, receipts, and whiteboards. The app automatically detects edges, corrects perspective, and enhances text clarity. Optical character recognition converts scanned documents into editable and searchable text. Multiple export formats include PDF, JPG, and text files. Cloud integration syncs scans across devices and with popular storage services. The organization system uses tags and folders for easy document retrieval. Batch scanning processes multiple pages into single documents. The security features include password protection and encryption for sensitive documents. The business card scanner extracts contact information directly to address books. Automatic backup ensures no scans are lost. The quality enhancement tools improve legibility of faded or poor-quality documents. Form recognition helps fill out standardized documents quickly.",
+    "size": 67,
+    "reviews": 11300,
+    "ratingAvg": 4.5,
+    "downloads": 270,
+    "ratings": [
+      { "name": "1 star", "count": 3000 },
+      { "name": "2 star", "count": 5000 },
+      { "name": "3 star", "count": 7500 },
+      { "name": "4 star", "count": 10000 },
+      { "name": "5 star", "count": 12000 }
+    ]
+  },
+  {
+    "image": "https://example.com/images/app19.png",
+    "title": "Vocabulary Builder Elite",
+    "companyName": "Language Mastery Apps",
+    "id": 19,
+    "description": "Vocabulary Builder Elite systematically expands users' vocabulary through scientifically-proven learning techniques. The app features thousands of words across difficulty levels with definitions, usage examples, and pronunciation guides. Spaced repetition algorithm optimizes review timing for maximum retention. Contextual learning presents words in example sentences from literature and news sources. The progress tracking shows vocabulary growth over time. Custom word lists allow focusing on specific domains like business, academic, or technical terminology. Games and quizzes make learning engaging and interactive. The pronunciation practice uses speech recognition to provide feedback. Offline mode enables learning without internet connection. The reading assistant helps learn words in context from web articles and documents. Daily reminders maintain consistent learning habits. Personalized difficulty adjustment ensures appropriate challenge level as vocabulary improves.",
+    "size": 58,
+    "reviews": 9400,
+    "ratingAvg": 4.6,
+    "downloads": 220,
+    "ratings": [
+      { "name": "1 star", "count": 3000 },
+      { "name": "2 star", "count": 5000 },
+      { "name": "3 star", "count": 7500 },
+      { "name": "4 star", "count": 10000 },
+      { "name": "5 star", "count": 12000 }
+    ]
+  },
+  {
+    "image": "https://example.com/images/app20.png",
+    "title": "Astronomy Sky Guide",
+    "companyName": "Space Exploration Apps",
+    "id": 20,
+    "description": "Astronomy Sky Guide helps users explore the night sky through augmented reality star maps and detailed celestial information. The app identifies stars, planets, constellations, and satellites by simply pointing the device at the sky. The time travel feature shows sky appearances from different dates and locations. Notifications alert users to upcoming meteor showers, eclipses, and planetary alignments. The observation planner suggests optimal viewing times for celestial objects based on location and weather conditions. Telescope integration provides guidance for locating specific targets. The educational content includes detailed information about celestial objects, space missions, and astronomical phenomena. Offline mode works without data connection using pre-downloaded star charts. The social features enable sharing observations and joining star-gazing events. The minimalist light mode preserves night vision during observation sessions.",
+    "size": 112,
+    "reviews": 6800,
+    "ratingAvg": 4.7,
+    "downloads": 140,
+    "ratings": [
+      { "name": "1 star", "count": 3000 },
+      { "name": "2 star", "count": 5000 },
+      { "name": "3 star", "count": 7500 },
+      { "name": "4 star", "count": 10000 },
+      { "name": "5 star", "count": 12000 }
+    ]
+  },
+  {
+    "image": "https://example.com/images/app21.png",
+    "title": "Recipe Nutrition Analyzer",
+    "companyName": "Health Food Analytics",
+    "id": 21,
+    "description": "Recipe Nutrition Analyzer provides detailed nutritional information for homemade recipes and restaurant meals. The app calculates calories, macronutrients, vitamins, and minerals based on ingredient quantities. The barcode scanner identifies packaged foods and imports nutrition data. The meal logging feature tracks daily nutritional intake against personal goals. The diet compatibility checker identifies recipes suitable for specific dietary needs like keto, paleo, or diabetic diets. The ingredient substitution suggestor offers healthier alternatives to improve nutritional profiles. The restaurant menu analyzer helps make informed choices when dining out. The progress tracking monitors nutritional trends over weeks and months. The grocery list generator creates shopping lists based on planned recipes. Integration with fitness apps provides comprehensive health management. The database includes thousands of foods with accurate, verified nutritional information.",
+    "size": 76,
+    "reviews": 10200,
+    "ratingAvg": 4.4,
+    "downloads": 210,
+    "ratings": [
+      { "name": "1 star", "count": 3000 },
+      { "name": "2 star", "count": 5000 },
+      { "name": "3 star", "count": 7500 },
+      { "name": "4 star", "count": 10000 },
+      { "name": "5 star", "count": 12000 }
+    ]
+  },
+  {
+    "image": "https://example.com/images/app22.png",
+    "title": "Public Transport Navigator",
+    "companyName": "Urban Mobility Solutions",
+    "id": 22,
+    "description": "Public Transport Navigator provides comprehensive routing information for buses, trains, subways, and ferries in cities worldwide. The app offers real-time arrival predictions, service alerts, and optimal route planning. The trip planner considers multiple factors including travel time, transfers, and walking distance. Offline maps ensure functionality without data connection. The saved routes feature provides quick access to frequent journeys. The service status updates notify about delays, cancellations, and route changes. The fare calculator estimates trip costs across different payment methods. The crowd-sourcing feature shares real-time crowding information for vehicles. The accessibility filter finds routes suitable for wheelchair users and those with mobility challenges. Integration with ride-sharing services provides complete door-to-door journey planning. The clean interface presents complex transit information in an easily understandable format.",
+    "size": 89,
+    "reviews": 15600,
+    "ratingAvg": 4.3,
+    "downloads": 320,
+    "ratings": [
+      { "name": "1 star", "count": 30000 },
+      { "name": "2 star", "count": 5000 },
+      { "name": "3 star", "count": 7500 },
+      { "name": "4 star", "count": 10000 },
+      { "name": "5 star", "count": 12000 }
+    ]
+  },
+  {
+    "image": "https://example.com/images/app23.png",
+    "title": "Habit Tracker Daily",
+    "companyName": "Personal Development Apps",
+    "id": 23,
+    "description": "Habit Tracker Daily helps users build positive routines and break negative patterns through consistent tracking and motivation. The app allows creating custom habits with flexible scheduling options. The streak counter provides visual motivation for maintaining consistency. The statistics dashboard shows completion rates and patterns over time. The reminder system ensures habits aren't forgotten during busy days. The habit stacking feature links new habits to existing routines for better adherence. The community challenges add social accountability. The journaling option allows recording notes and reflections about habit progress. The goal setting feature breaks large objectives into manageable daily habits. The reward system celebrates milestones and achievements. Data export creates reports for personal review or sharing with coaches. The minimalist design focuses attention on habit execution rather than app complexity.",
+    "size": 41,
+    "reviews": 11800,
+    "ratingAvg": 4.7,
+    "downloads": 260,
+    "ratings": [
+      { "name": "1 star", "count": 3000 },
+      { "name": "2 star", "count": 5000 },
+      { "name": "3 star", "count": 7500 },
+      { "name": "4 star", "count": 10000 },
+      { "name": "5 star", "count": 12000 }
+    ]
+  },
+  {
+    "image": "https://example.com/images/app24.png",
+    "title": "Art Drawing Tutorials",
+    "companyName": "Creative Skills Academy",
+    "id": 24,
+    "description": "Art Drawing Tutorials provides step-by-step instruction for artists of all skill levels, from complete beginners to advanced practitioners. The app features hundreds of video tutorials covering various mediums including pencil, charcoal, ink, and digital art. The progressive curriculum builds fundamental skills before advancing to complex techniques. The reference image library provides practice material across different subjects. The community gallery allows sharing artwork and receiving constructive feedback. The daily drawing prompts combat artist's block and inspire creativity. The tool tutorials explain proper use of different art supplies. The anatomy lessons provide foundation for figure drawing. The perspective exercises develop spatial understanding. The color theory modules enhance understanding of hue, value, and saturation. Offline downloading enables learning without internet connection. The progress tracking shows improvement in technical skills and artistic expression over time.",
+    "size": 135,
+    "reviews": 8300,
+    "ratingAvg": 4.6,
+    "downloads": 190,
+    "ratings": [
+      { "name": "1 star", "count": 3000 },
+      { "name": "2 star", "count": 5000 },
+      { "name": "3 star", "count": 7500 },
+      { "name": "4 star", "count": 10000 },
+      { "name": "5 star", "count": 12000 }
+    ]
+  },
+  {
+    "image": "https://example.com/images/app25.png",
+    "title": "First Aid Emergency Guide",
+    "companyName": "Health Safety Systems",
+    "id": 25,
+    "description": "First Aid Emergency Guide provides immediate, clear instructions for handling medical emergencies until professional help arrives. The app features step-by-step guides for common situations like CPR, choking, bleeding control, and allergic reactions. The emergency contact system quickly notifies designated contacts with location information. The hospital locator finds the nearest medical facilities with directions. The medication tracker maintains records of prescriptions and allergies. The symptom checker helps assess situations and determine appropriate responses. The preparedness checklist ensures first aid kits are properly stocked. Offline functionality guarantees access during network outages. The quiz feature tests knowledge retention of first aid procedures. The video demonstrations show proper technique for critical interventions. Regular content updates incorporate latest medical guidelines. The simple, clear interface ensures usability during high-stress situations when every second counts.",
+    "size": 79,
+    "reviews": 6200,
+    "ratingAvg": 4.8,
+    "downloads": 130,
+    "ratings": [
+      { "name": "1 star", "count": 3000 },
+      { "name": "2 star", "count": 5000 },
+      { "name": "3 star", "count": 7500 },
+      { "name": "4 star", "count": 10000 },
+      { "name": "5 star", "count": 12000 }
+    ]
+  },
+  {
+    "image": "https://example.com/images/app26.png",
+    "title": "Investment Portfolio Manager",
+    "companyName": "Wealth Management Tech",
+    "id": 26,
+    "description": "Investment Portfolio Manager provides comprehensive tools for tracking and analyzing investment performance across multiple accounts. The app aggregates holdings from brokerage, retirement, and cryptocurrency accounts into unified views. The performance analytics show returns across different time periods and asset classes. The allocation analysis identifies diversification and concentration risks. The dividend tracker monitors income streams and payment schedules. The news aggregator delivers relevant financial information based on portfolio holdings. The alert system notifies about significant price movements and corporate actions. The tax lot tracking helps optimize selling decisions for tax efficiency. The goal progress feature measures investment growth toward financial objectives. The benchmark comparison evaluates performance against market indices. Security features include biometric authentication and encryption. The reporting function generates statements for personal review or sharing with financial advisors.",
+    "size": 84,
+    "reviews": 7400,
+    "ratingAvg": 4.5,
+    "downloads": 160,
+    "ratings": [
+      { "name": "1 star", "count": 3000 },
+      { "name": "2 star", "count": 5000 },
+      { "name": "3 star", "count": 7500 },
+      { "name": "4 star", "count": 10000 },
+      { "name": "5 star", "count": 12000 }
+    ]
+  },
+  {
+    "image": "https://example.com/images/app27.png",
+    "title": "Bird Watching Companion",
+    "companyName": "Nature Exploration Apps",
+    "id": 27,
+    "description": "Bird Watching Companion helps enthusiasts identify, track, and learn about birds through comprehensive field guide features. The app includes detailed information about thousands of bird species worldwide with photos, songs, and behavioral descriptions. The sound identification feature recognizes bird calls and songs. The location-based sightings show birds commonly seen in specific areas and seasons. The personal life list tracks observed species with date and location records. The migration maps display seasonal movement patterns. The community sightings feature shares recent observations from other birders. The quiz mode tests identification skills through visual and auditory challenges. Offline functionality works in remote areas without cellular service. The photography tips help capture better bird images. The hotspot finder locates prime birding locations nearby. The journal feature allows recording observations, behaviors, and photographic evidence of sightings.",
+    "size": 127,
+    "reviews": 5900,
+    "ratingAvg": 4.7,
+    "downloads": 110,
+    "ratings": [
+      { "name": "1 star", "count": 3000 },
+      { "name": "2 star", "count": 5000 },
+      { "name": "3 star", "count": 7500 },
+      { "name": "4 star", "count": 10000 },
+      { "name": "5 star", "count": 12000 }
+    ]
+  },
+  {
+    "image": "https://example.com/images/app28.png",
+    "title": "Coding Reference Library",
+    "companyName": "Developer Tools Pro",
+    "id": 28,
+    "description": "Coding Reference Library provides comprehensive documentation, code examples, and cheat sheets for programming languages and frameworks. The app features syntax reference for multiple languages with searchable documentation. The code snippet library offers practical examples for common programming tasks. The algorithm visualizations help understand complex computer science concepts. The regular expression tester provides instant feedback on pattern matching. The API reference includes documentation for popular libraries and services. The offline mode ensures access to essential references without internet connection. The customization allows creating personal code collections and notes. The dark mode reduces eye strain during extended coding sessions. The keyboard shortcuts enable efficient navigation for power users. The community contributions keep content updated with latest programming trends. The cross-referencing links related concepts across different programming languages and paradigms.",
+    "size": 96,
+    "reviews": 10500,
+    "ratingAvg": 4.6,
+    "downloads": 230,
+    "ratings": [
+      { "name": "1 star", "count": 3000 },
+      { "name": "2 star", "count": 5000 },
+      { "name": "3 star", "count": 7500 },
+      { "name": "4 star", "count": 10000 },
+      { "name": "5 star", "count": 12000 }
+    ]
+  },
+  {
+    "image": "https://example.com/images/app29.png",
+    "title": "Mindfulness Breathing Coach",
+    "companyName": "Mental Wellness Apps",
+    "id": 29,
+    "description": "Mindfulness Breathing Coach guides users through various breathing techniques to reduce stress, improve focus, and enhance relaxation. The app features visual and auditory guidance for different breathing patterns including box breathing, 4-7-8 technique, and coherent breathing. The personalized sessions adapt duration and difficulty based on user experience and goals. The heart rate variability tracking measures physiological responses to breathing exercises. The progress tracking shows consistency and improvements in stress management over time. The reminder system helps maintain regular practice. The ambient sound library creates calming environments for meditation. The statistics dashboard visualizes practice frequency and duration. The offline functionality ensures availability during travel or limited connectivity. The scientific background information explains benefits and mechanisms of different techniques. The minimalist interface minimizes distractions during practice sessions. The customizable breathing patterns accommodate personal preferences and specific objectives.",
+    "size": 47,
+    "reviews": 12700,
+    "ratingAvg": 4.8,
+    "downloads": 280,
+    "ratings": [
+      { "name": "1 star", "count": 3000 },
+      { "name": "2 star", "count": 5000 },
+      { "name": "3 star", "count": 7500 },
+      { "name": "4 star", "count": 10000 },
+      { "name": "5 star", "count": 12000 }
+    ]
+  },
+  {
+    "image": "https://example.com/images/app30.png",
+    "title": "Car Maintenance Tracker",
+    "companyName": "Automotive Care Solutions",
+    "id": 30,
+    "description": "Car Maintenance Tracker helps vehicle owners stay on top of routine maintenance, repairs, and expenses. The app tracks service history, fuel consumption, and maintenance schedules for multiple vehicles. The reminder system alerts about upcoming oil changes, tire rotations, and other routine services. The fuel log calculates mileage and identifies consumption trends. The expense tracker categorizes costs including fuel, insurance, repairs, and registration. The vehicle information storage maintains important details like VIN, insurance policy numbers, and warranty information. The recall check feature monitors safety recalls for specific vehicles. The diagnostic code lookup helps understand check engine light issues. The service manual access provides specifications and procedures for common maintenance tasks. The backup feature prevents data loss when changing devices. The reporting function generates maintenance history reports for vehicle sales or warranty claims. Integration with calendar apps ensures maintenance reminders aren't overlooked.",
+    "size": 63,
+    "reviews": 8800,
+    "ratingAvg": 4.5,
+    "downloads": 180,
+    "ratings": [
+      { "name": "1 star", "count": 3000 },
+      { "name": "2 star", "count": 5000 },
+      { "name": "3 star", "count": 7500 },
+      { "name": "4 star", "count": 10000 },
+      { "name": "5 star", "count": 12000 }
+    ]
+  }
+]
