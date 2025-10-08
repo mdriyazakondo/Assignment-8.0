@@ -1,16 +1,12 @@
 import { FaFacebookF, FaLinkedinIn } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
-
-import React from "react";
 import { Link } from "react-router";
 
 const Footer = () => {
   return (
     <footer className="bg-[#011b34] text-white">
       <div className="container mx-auto px-6 py-8">
-        {/* Top Section */}
         <div className="flex flex-col md:flex-row justify-between items-center border-b border-gray-600 pb-6">
-          {/* Logo and Info */}
           <div className="flex items-center space-x-3 mb-6 md:mb-0">
             <img
               src="../assets/logo.png"
@@ -22,7 +18,7 @@ const Footer = () => {
             </h2>
           </div>
 
-          {/* Quick Links */}
+
           <div className="flex flex-col md:flex-row md:space-x-8 text-gray-300 text-sm text-center md:text-left space-y-2 md:space-y-0 mb-6 md:mb-0">
             <Link to={"/"} href="#" className="hover:text-white transition">
               Home
@@ -39,7 +35,6 @@ const Footer = () => {
             </Link>
           </div>
 
-          {/* Social Links */}
           <div className="text-center md:text-right">
             <p className="text-gray-300 text-sm mb-2">Social Links</p>
             <div className="flex justify-center md:justify-end space-x-4">
@@ -68,7 +63,7 @@ const Footer = () => {
           </div>
         </div>
 
-        {/* Bottom Section */}
+
         <div className="text-center text-gray-400 text-sm mt-6">
           <p className="mt-2">
             Copyright © 2025 <span className="font-semibold">HERO.IO</span> —

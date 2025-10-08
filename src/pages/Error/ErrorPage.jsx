@@ -5,7 +5,7 @@ const ErrorPage = () => {
   const navigate = useNavigate();
   const error = useRouteError();
 
-  // Determine if this is a real route error or just a 404 (wrong path)
+
   const is404 = !error;
   const title = is404 ? "404" : error.status || "Error";
   const message = is404

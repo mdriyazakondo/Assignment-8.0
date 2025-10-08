@@ -10,7 +10,6 @@ const Home = () => {
   useEffect(() => {
     const loadingData = async () => {
       setLoading(true);
-      // simulate small delay (e.g., page transition)
       await new Promise((resolve) => setTimeout(resolve, 300));
       setLoading(false);
     };

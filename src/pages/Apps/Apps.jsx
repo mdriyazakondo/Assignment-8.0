@@ -9,7 +9,7 @@ const Apps = () => {
   const [search, setSearch] = useState("");
   const [loading, setLoading] = useState(false);
   const navigate = useNavigate();
-  // 🔹 Fetch data initially
+
   useEffect(() => {
     const fetchData = async () => {
       setLoading(true);
@@ -31,7 +31,7 @@ const Apps = () => {
     fetchData();
   }, []);
 
-  // 🔹 Show loading while typing/searching
+
   useEffect(() => {
     if (search.trim() !== "") {
       setLoading(true);
@@ -42,12 +42,12 @@ const Apps = () => {
     }
   }, [search]);
 
-  // 🔹 Filter apps by search term
+
   const allData = data.filter((item) =>
     item.title.toLowerCase().includes(search.trim().toLowerCase())
   );
 
-  // 🔹 Main render
+
   return (
     <div className="bg-[#f5f5f5] py-17 min-h-screen ">
       {loading ? (
@@ -81,7 +81,6 @@ const Apps = () => {
             </div>
           </div>
 
-          {/* 🔹 যদি কিছু না মেলে */}
           {allData.length === 0 ? (
             <div className="flex flex-col items-center justify-center mt-10">
               <img

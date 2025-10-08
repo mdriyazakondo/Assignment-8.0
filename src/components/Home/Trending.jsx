@@ -43,9 +43,11 @@ const Trending = () => {
               <AllData key={item.id} item={item} />
             ))}
           </div>
-          <button className="flex items-center justify-center  mt-8 w-[200px] mx-auto py-2 rounded-full bg-purple-500 hover:bg-purple-600 cursor-pointer  transition-all duration-500 text-xl font-semibold text-white">
-            <Link to={"/apps"}>Show All</Link>
-          </button>
+          <Link to={"/apps"}>
+            <button className="flex items-center justify-center  mt-8 w-[200px] mx-auto py-2 rounded-full bg-purple-500 hover:bg-purple-600 cursor-pointer  transition-all duration-500 text-xl font-semibold text-white">
+              Show All
+            </button>
+          </Link>
         </div>
       )}
     </div>

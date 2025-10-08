@@ -13,7 +13,7 @@ const Navbar = () => {
   const location = useLocation();
   const [isOpen, setIsOpen] = useState(false);
 
-  // Function to check if link is active, including subpaths
+
   const isLinkActive = (path) => {
     return (
       location.pathname === path || location.pathname.startsWith(path + "/")
@@ -32,7 +32,7 @@ const Navbar = () => {
               </h2>
             </div>
           </Link>
-          {/* Desktop Menu */}
+
           <nav className="hidden md:block">
             <ul className="flex items-center gap-6">
               {navLinks.map((link, i) => (
@@ -50,7 +50,6 @@ const Navbar = () => {
             </ul>
           </nav>
 
-          {/* Buttons */}
           <div className="flex items-center gap-8 md:gap-0">
             <a
               href="https://github.com/mdriyazakondo"
@@ -60,7 +59,6 @@ const Navbar = () => {
               <FaGithub className="w-4 md:w-6 h-4 md:h-6" /> Contribute
             </a>
 
-            {/* Mobile Menu Toggle */}
             <button
               onClick={() => setIsOpen(!isOpen)}
               className="block md:hidden"
@@ -75,7 +73,6 @@ const Navbar = () => {
         </div>
       </div>
 
-      {/* Mobile Menu */}
       {isOpen && (
         <nav className="md:hidden block shadow bg-gray-100">
           <ul className="flex flex-col items-start gap-4 p-4">
@@ -87,7 +84,7 @@ const Navbar = () => {
                     ? "text-[#8452e9] border-b-2 border-[#8452e9]"
                     : "text-gray-600"
                 }`}
-                onClick={() => setIsOpen(false)} // close menu on click
+                onClick={() => setIsOpen(false)} 
               >
                 <Link to={link.path}>{link.name}</Link>
               </li>

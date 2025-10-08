@@ -6,13 +6,8 @@ const AllData = ({ item }) => {
   const {
     image,
     title,
-    companyName,
-    description,
-    size,
-    reviews,
     ratingAvg,
     downloads,
-    ratings,
   } = item;
 
   return (
@@ -30,7 +25,7 @@ const AllData = ({ item }) => {
             </h4>
             <h4 className="flex items-center gap-2 bg-amber-50/70 py-2 px-4 rounded-sm text-amber-500 text-xl font-semibold">
               <MdOutlineStar className="w-6 h-6" />
-              {ratings.length}
+              {ratingAvg}
             </h4>
           </div>
         </div>

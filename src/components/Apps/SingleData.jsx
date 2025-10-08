@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { useParams } from "react-router";
+import { Link, useParams } from "react-router";
 import Loading from "../Loading/Loading";
 import {
   Bar,
@@ -16,7 +16,7 @@ const SingleData = () => {
   const { id } = useParams();
   const [singleData, setSingleData] = useState(null);
   const [loading, setLoading] = useState(false);
-  const [installed, setInstalled] = useState(false); // <-- app install check
+  const [installed, setInstalled] = useState(false);
 
   useEffect(() => {
     const fetchData = async () => {
@@ -27,10 +27,17 @@ const SingleData = () => {
         const res = await fetch("/app.json");
         const data = await res.json();
         const found = data.find((item) => item.id === parseInt(id));
-        setSingleData(found);
+
         await delay;
 
-        // Check if already installed
+        if (!found) {
+          setSingleData(null);
+          setLoading(false);
+          return;
+        }
+
+        setSingleData(found);
+
         const installedApps =
           JSON.parse(localStorage.getItem("installedApps")) || [];
         if (installedApps.some((app) => app.id === found.id)) {
@@ -47,10 +54,27 @@ const SingleData = () => {
     fetchData();
   }, [id]);
 
-  if (loading || !singleData) {
+  if (loading) {
     return (
       <div>
         <Loading />
+      </div>
+    );
+  }
+
+  if (!singleData) {
+    return (
+      <div className="flex flex-col items-center justify-center h-[80vh]">
+        <img src="../assets/App-Error.png" alt="" />
+        <h2 className="text-4xl font-bold text-gray-700 mb-4">App Not Found</h2>
+        <p className="text-lg text-gray-500">
+          Sorry, we couldn’t find any app with this ID.
+        </p>
+        <Link to="/">
+          <button className="py-3 bg-gradient-to-br from-[#6832e4] to-[#9f62f2] px-10 cursor-pointer rounded-full text-white mt-4 font-bold">
+            Go Back
+          </button>
+        </Link>
       </div>
     );
   }
@@ -174,8 +198,8 @@ const SingleData = () => {
         </ResponsiveContainer>
       </div>
 
-      <div className="max-w-7xl mx-auto py-8 ">
-        <p className="text-gray-700 text-xl ">{description}</p>
+      <div className="max-w-7xl mx-auto py-8">
+        <p className="text-gray-700 text-xl">{description}</p>
       </div>
     </div>
   );
