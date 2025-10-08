@@ -15,27 +15,27 @@ All app data is dynamically loaded and displayed with smooth UI interactions.
 
 ## 🧩 Features
 
-✅ Fetch and display all available apps dynamically  
-✅ View detailed information for each app  
-✅ Install and Uninstall apps with localStorage support  
-✅ Show installed apps separately  
-✅ Search apps by name  
-✅ Loading spinner for better UX  
-✅ Responsive design using **Tailwind CSS**  
-✅ Toast notifications for user feedback
+Fetch and display all available apps dynamically  
+View detailed information for each app  
+Install and Uninstall apps with localStorage support  
+Show installed apps separately  
+Search apps by name  
+Loading spinner for better UX  
+Responsive design using **Tailwind CSS**  
+Toast notifications for user feedback
 
 ---
 
 ## 🛠️ Technologies Used
 
-| Technology         | Purpose                         |
-| ------------------ | ------------------------------- |
-| **React.js**       | Frontend library                |
-| **React Router**   | Routing between pages           |
-| **Tailwind CSS**   | Styling framework               |
-| **LocalStorage**   | To store installed apps         |
-| **Recharts**       | Data visualization (for charts) |
-| **React Toastify** | Notification system             |
+ Technology          Purpose                         
+
+ **React.js**        Frontend library                
+ **React Router**    Routing between pages           
+ **Tailwind CSS**    Styling framework               
+ **LocalStorage**    To store installed apps         
+ **Recharts**        Data visualization (for charts) 
+ **React Toastify**  Notification system             
 
 ---
 
