@@ -18,7 +18,6 @@ const AllData = ({ item }) => {
   return (
     <div>
       <div className="shadow p-4 rounded-md bg-gray-100 ">
-        <h2>{item.id}</h2>
         <Link to={`/app/${item.id}`}>
           <img className="h-[250px] rounded-md w-full" src={image} alt="" />
         </Link>
