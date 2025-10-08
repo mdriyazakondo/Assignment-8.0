@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import AllData from "../Apps/AllData";
 import Loading from "../Loading/Loading";
+import { Link } from "react-router";
 
 const Trending = () => {
   const [data, setData] = useState([]);
@@ -42,6 +43,9 @@ const Trending = () => {
               <AllData key={item.id} item={item} />
             ))}
           </div>
+          <button className="flex items-center justify-center  mt-8 w-[200px] mx-auto py-2 rounded-full bg-purple-500 hover:bg-purple-600 cursor-pointer  transition-all duration-500 text-xl font-semibold text-white">
+            <Link to={"/apps"}>Show All</Link>
+          </button>
         </div>
       )}
     </div>

@@ -48,7 +48,7 @@ const Apps = () => {
 
   // 🔹 Main render
   return (
-    <div className="bg-[#f5f5f5] pt-17 min-h-screen">
+    <div className="bg-[#f5f5f5] py-17 min-h-screen ">
       {loading ? (
         <Loading />
       ) : (
