@@ -8,7 +8,7 @@ All app data is dynamically loaded and displayed with smooth UI interactions.
 
 ## 🚀 Live Demo
 
-👉 [Live Site Link](https://your-live-link.netlify.app/)  
+👉 [Live Site Link](https://assignment-8-0.vercel.app/)  
 (_Replace with your actual deployed link_)
 
 ---
