@@ -11,7 +11,7 @@ const Installed = () => {
   useEffect(() => {
     const fetchData = async () => {
       setLoading(true);
-      const delay = new Promise((resolve) => setTimeout(resolve, 800));
+      const delay = new Promise((resolve) => setTimeout(resolve, 300));
       try {
         const apps =
           (await JSON.parse(localStorage.getItem("installedApps"))) || [];

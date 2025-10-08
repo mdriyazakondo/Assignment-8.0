@@ -9,7 +9,7 @@ const Trending = () => {
   useEffect(() => {
     const fetchData = async () => {
       setLoading(true);
-      const delay = new Promise((resolve) => setTimeout(resolve, 800));
+      const delay = new Promise((resolve) => setTimeout(resolve, 300));
       try {
         const res = await fetch("/app.json");
         const data = await res.json();

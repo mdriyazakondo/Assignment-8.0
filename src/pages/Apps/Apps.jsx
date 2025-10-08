@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import AllData from "../../components/Apps/AllData";
 import Loading from "../../components/Loading/Loading";
 import { useNavigate } from "react-router";
+import { FaSearch } from "react-icons/fa";
 
 const Apps = () => {
   const [data, setData] = useState([]);
@@ -13,7 +14,7 @@ const Apps = () => {
     const fetchData = async () => {
       setLoading(true);
 
-      const delay = new Promise((resolve) => setTimeout(resolve, 800));
+      const delay = new Promise((resolve) => setTimeout(resolve, 300));
       try {
         const res = await fetch("/app.json");
         const data = await res.json();
@@ -68,14 +69,15 @@ const Apps = () => {
               ({allData.length}) Apps Found
             </h3>
 
-            <div className="w-1/3 flex flex-col">
+            <div className="w-1/3 flex flex-col relative">
               <input
                 type="search"
                 value={search}
                 onChange={(e) => setSearch(e.target.value)}
-                className="w-full py-2 px-4 border border-gray-300 rounded-md outline-none focus:border-blue-500 focus:ring-2 focus:ring-blue-200 transition duration-200"
+                className="w-full py-2 pl-10 pr-4 border border-gray-300 rounded-md outline-none focus:border-blue-500 focus:ring-2 focus:ring-blue-200 transition duration-200"
                 placeholder="Search app..."
               />
+              <FaSearch className="absolute w-5 h-5 left-2 top-3 text-gray-500" />
             </div>
           </div>
 
