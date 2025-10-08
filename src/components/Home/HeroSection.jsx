@@ -27,7 +27,7 @@ const HeroSection = () => {
             target="_blank"
             className="py-2 px-8 rounded-md bg-[#00b2fb] text-white cursor-pointer hover:bg-transparent border border-[#00b2fb] hover:text-[#00b2fb] text-xl font-medium transition-all duration-500 flex items-center gap-2"
           >
-            <img src="/public/assets/fi_5977575.png" alt="" /> App Store
+            <img src="../assets/fi_5977575.png" alt="" /> App Store
           </a>
         </div>
         <div className="flex items-center justify-center mt-8">
