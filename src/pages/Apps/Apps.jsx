@@ -51,12 +51,12 @@ const Apps = () => {
       ) : (
         <div className="max-w-[1500px] mx-5 md:mx-auto">
           <div>
-            <h2 className="text-3xl font-bold text-center">
+            <h2 className="text-3xl md:text-4xl font-bold">
               Our All Applications
             </h2>
             <p className="text-gray-600 text-sm md:text-xl font-medium text-center">
               Explore All Apps on the Market developed by us. We code for
-              Millions.
+              Millions
             </p>
           </div>
 
