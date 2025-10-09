@@ -1,14 +1,13 @@
 import React, { useEffect, useState } from "react";
 import AllData from "../../components/Apps/AllData";
 import Loading from "../../components/Loading/Loading";
-import { Link, useNavigate } from "react-router";
+import { Link } from "react-router";
 import { FaSearch } from "react-icons/fa";
 
 const Apps = () => {
   const [data, setData] = useState([]);
   const [search, setSearch] = useState("");
   const [loading, setLoading] = useState(false);
-  const navigate = useNavigate();
 
   useEffect(() => {
     const fetchData = async () => {

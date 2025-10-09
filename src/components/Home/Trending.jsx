@@ -44,7 +44,7 @@ const Trending = () => {
             ))}
           </div>
           <Link to={"/apps"}>
-            <button className="flex items-center justify-center  mt-8 w-[200px] mx-auto py-2 rounded-full bg-purple-500 hover:bg-purple-600 cursor-pointer  transition-all duration-500 text-xl font-semibold text-white">
+            <button className="flex items-center justify-center  mt-8 w-[200px] mx-auto py-3 rounded-md bg-gradient-to-r from-[#632ee3] to-[#9f62f2]  cursor-pointer  transition-all duration-500 text-xl font-semibold text-white">
               Show All
             </button>
           </Link>

@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { Link, useParams } from "react-router";
+import { Link, useParams } from "react-router-dom";
 import Loading from "../Loading/Loading";
 import {
   Bar,
@@ -27,24 +27,19 @@ const SingleData = () => {
         const res = await fetch("/app.json");
         const data = await res.json();
         const found = data.find((item) => item.id === parseInt(id));
-
         await delay;
-
         if (!found) {
           setSingleData(null);
-          setLoading(false);
           return;
         }
-
         setSingleData(found);
-
         const installedApps =
           JSON.parse(localStorage.getItem("installedApps")) || [];
         if (installedApps.some((app) => app.id === found.id)) {
           setInstalled(true);
         }
-      } catch (err) {
-        console.error(err);
+      } catch (error) {
+        console.error(error);
         await delay;
       } finally {
         setLoading(false);
@@ -55,17 +50,13 @@ const SingleData = () => {
   }, [id]);
 
   if (loading) {
-    return (
-      <div>
-        <Loading />
-      </div>
-    );
+    return <Loading />;
   }
 
   if (!singleData) {
     return (
       <div className="flex flex-col items-center justify-center h-[80vh]">
-        <img src="../assets/App-Error.png" alt="" />
+        <img src="/assets/App-Error.png" alt="App Not Found" />
         <h2 className="text-4xl font-bold text-gray-700 mb-4">App Not Found</h2>
         <p className="text-lg text-gray-500">
           Sorry, we couldn’t find any app with this ID.
@@ -101,13 +92,13 @@ const SingleData = () => {
       setInstalled(true);
       toast.success(`${title} installed successfully!`);
     } else {
-      alert(`${title} is already installed.`);
+      toast.info(`${title} is already installed.`);
     }
   };
 
   return (
     <div className="bg-[#f5f5f5]">
-      <div className="max-w-7xl mx-5 md:mx-auto py-10 border-b border-gray-400">
+      <div className="max-w-7xl mx-5 md:mx-auto py-10">
         <div className="flex items-center justify-center gap-10 flex-col md:flex-row">
           <div className="w-full md:w-1/3">
             <img
@@ -116,6 +107,7 @@ const SingleData = () => {
               alt={title}
             />
           </div>
+
           <div className="w-full md:w-1/2">
             <div className="border-b border-gray-400 pb-4">
               <h2 className="text-4xl font-semibold mb-2">{title}</h2>
@@ -134,12 +126,12 @@ const SingleData = () => {
                 />
                 <p className="text-gray-500">Downloads</p>
                 <h3 className="text-2xl md:text-3xl lg:text-4xl font-bold text-black">
-                  <span>
-                    {String(downloads).slice(0, 2)}
-                    {String(downloads).length > 7 ? "M" : "K"}
-                  </span>
+                  {downloads && downloads >= 1000000
+                    ? `${(downloads / 1000000).toFixed(1)}M`
+                    : `${(downloads / 1000).toFixed(1)}K`}
                 </h3>
               </div>
+
               <div className="flex flex-col items-center justify-center">
                 <img
                   src="/assets/icon-ratings.png"
@@ -151,6 +143,7 @@ const SingleData = () => {
                   {ratingAvg}
                 </h3>
               </div>
+
               <div className="flex flex-col items-center justify-center">
                 <img
                   src="/assets/icon-review.png"
@@ -159,10 +152,9 @@ const SingleData = () => {
                 />
                 <p className="text-gray-500">Total Reviews</p>
                 <h3 className="text-2xl md:text-3xl lg:text-4xl font-bold text-black">
-                  <span>
-                    {String(reviews).slice(0, 2)}
-                    {String(reviews).length > 7 ? "M" : "K"}
-                  </span>
+                  {reviews && reviews >= 1000000
+                    ? `${(reviews / 1000000).toFixed(1)}M`
+                    : `${(reviews / 1000).toFixed(1)}K`}
                 </h3>
               </div>
             </div>

@@ -9,29 +9,28 @@ const Installed = () => {
   const [loading, setLoading] = useState(false);
 
   useEffect(() => {
-    const fetchData = async () => {
+    const localStoreAdd = async () => {
       setLoading(true);
       const delay = new Promise((resolve) => setTimeout(resolve, 300));
       try {
-        const apps =
-          (await JSON.parse(localStorage.getItem("installedApps"))) || [];
+        const apps = JSON.parse(localStorage.getItem("installedApps")) || [];
         setInstalledApps(apps);
         await delay;
       } catch (error) {
-        console.error(err);
+        console.error(error);
         await delay;
       } finally {
         setLoading(false);
       }
     };
-    fetchData();
+    localStoreAdd();
   }, []);
 
   const removeStorage = (id) => {
     const removeItem = installedApps.filter((item) => item.id !== id);
     setInstalledApps(removeItem);
     localStorage.setItem("installedApps", JSON.stringify(removeItem));
-    toast.info("App uninstalled successfully !");
+    toast.info("App uninstalled successfully!");
   };
 
   const sortedData = [...installedApps].sort((a, b) => {
@@ -45,12 +44,13 @@ const Installed = () => {
   ) : (
     <div className="bg-[#f5f5f5] min-h-[73vh] py-10 px-5">
       <div className="text-center my-10">
-        <h2 className="text-4xl font-bold ">Your Installed Apps</h2>
+        <h2 className="text-4xl font-bold">Your Installed Apps</h2>
         <p className="text-gray-700 text-xl mt-2">
           Explore All Trending Apps on the Market developed by us
         </p>
       </div>
-      <div className="max-w-7xl mx-auto mb-6 flex items-center justify-between ">
+
+      <div className="max-w-7xl mx-auto mb-6 flex items-center justify-between">
         <h2 className="text-3xl font-semibold">
           {installedApps.length} Apps Found
         </h2>
@@ -60,7 +60,7 @@ const Installed = () => {
             onChange={(e) => setSortOrder(e.target.value)}
             className="w-full py-2 px-3 border border-gray-300 rounded-md bg-white text-gray-700 shadow-sm focus:outline-none focus:border-blue-500 focus:ring-2 focus:ring-blue-200 transition duration-200 cursor-pointer hover:border-blue-400"
           >
-            <option value="all">Sort By Size</option>
+            <option value="all">Sort By Downloads</option>
             <option value="asc">Low - High</option>
             <option value="desc">High - Low</option>
           </select>
@@ -95,7 +95,7 @@ const Installed = () => {
           {sortedData.map((app) => (
             <div
               key={app.id}
-              className="bg-white rounded-lg shadow-md p-5 flex  items-center justify-between"
+              className="bg-white rounded-lg shadow-md p-5 flex items-center justify-between"
             >
               <div className="flex items-center gap-3">
                 <img
@@ -108,27 +108,29 @@ const Installed = () => {
 
                   <div className="flex items-center gap-3">
                     <p className="text-green-500 mb-4 flex items-center font-medium gap-1 text-sm md:text-xl">
-                      <MdOutlineFileDownload className="h-5 w-5 " />
-                      <span>
-                        {String(app.downloads).slice(0, 2)}
-                        {String(app.downloads).length > 7 ? "M" : "K"}
-                      </span>
+                      <MdOutlineFileDownload className="h-5 w-5" />
+                      {app.downloads && app.downloads >= 1000000
+                        ? `${(app.downloads / 1000000).toFixed(1)}M`
+                        : `${(app.downloads / 1000).toFixed(1)}K`}
                     </p>
+
                     <p className="text-amber-600 mb-4 flex items-center font-medium gap-1 text-sm md:text-xl">
                       <MdOutlineStar />
                       {app.ratings.length}
                     </p>
-                    <p className="text-gray-600  mb-4 flex items-center font-medium gap-1 text-sm md:text-xl">
+
+                    <p className="text-gray-600 mb-4 flex items-center font-medium gap-1 text-sm md:text-xl">
                       {app.size}MB
                     </p>
                   </div>
                 </div>
               </div>
+
               <button
-                className="py-2 px-6 bg-[#00d390] text-white rounded-md cursor-pointer hover:bg-[#00d390] transition"
+                className="py-2 px-6 bg-[#00d390] text-white rounded-md cursor-pointer hover:bg-[#06c285] transition"
                 onClick={() => removeStorage(app.id)}
               >
-                UnInstalled
+                Uninstall
               </button>
             </div>
           ))}
