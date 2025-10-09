@@ -23,8 +23,9 @@ const AllData = ({ item }) => {
             <h4 className="flex items-center gap-2 bg-green-50 py-2 px-4 rounded-sm text-green-500 text-xl font-semibold">
               <MdOutlineFileDownload className="w-6 h-6" />
               <span>
-                {String(downloads).slice(0, 2)}
-                {String(downloads).length > 7 ? "M" : "K"}
+                {downloads && downloads >= 1000000
+                  ? `${(downloads / 1000000).toFixed(1)}M`
+                  : `${(downloads / 1000).toFixed(1)}K`}
               </span>
             </h4>
             <h4 className="flex items-center gap-2 bg-amber-50/70 py-2 px-4 rounded-sm text-amber-500 text-xl font-semibold">
