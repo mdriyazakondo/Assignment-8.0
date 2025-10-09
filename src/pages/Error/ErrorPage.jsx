@@ -12,7 +12,7 @@ const ErrorPage = () => {
   return (
     <div className="min-h-[60vh] flex items-center justify-center ">
       <div className="bg-white shadow-2xl rounded-2xl flex flex-col items-center justify-center m-16 p-5 space-y-6 text-center max-w-7xl mx-auto w-full bg-gradient-to-br from-purple-100 via-pink-100 to-yellow-50 ">
-        <img src="/public/assets/error-404.png" alt="" />
+        <img src="../assets/error-404.png" alt="" />
         <h1 className="text-8xl font-extrabold text-pink-600 animate-pulse">
           {title}
         </h1>
