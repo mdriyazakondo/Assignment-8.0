@@ -7,13 +7,15 @@ const AllData = ({ item }) => {
 
   return (
     <div className="">
-      <div className="shadow p-4 rounded-md bg-gray-100 ">
+      <div className="shadow p-4 rounded-md bg-gray-100 group">
         <Link to={`/app/${item.id}`}>
-          <img
-            className="h-[250px] rounded-md w-full px-10 py-6"
-            src={image}
-            alt=""
-          />
+          <div className="flex items-center justify-center">
+            <img
+              className="h-[250px] w-[290px] group-hover:scale-105 object-cover  rounded-xl px-10 py-6 "
+              src={image}
+              alt=""
+            />
+          </div>
         </Link>
         <div className="space-y-3  pt-4">
           <h2 className="text-2xl font-semibold text-gray-700 ">{title}</h2>
