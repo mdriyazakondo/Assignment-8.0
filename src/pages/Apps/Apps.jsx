@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import AllData from "../../components/Apps/AllData";
 import Loading from "../../components/Loading/Loading";
-import { useNavigate } from "react-router";
+import { Link, useNavigate } from "react-router";
 import { FaSearch } from "react-icons/fa";
 
 const Apps = () => {
@@ -92,12 +92,11 @@ const Apps = () => {
                 The App you are requesting is not found on our system. please
                 try another apps
               </p>
-              <button
-                onClick={() => navigate(-1)}
-                className="py-2 px-8 rounded-md bg-purple-600 text-white font-semibold mt-6 cursor-pointer"
-              >
-                Go Back
-              </button>
+              <Link to={"/"}>
+                <button className="py-2 px-8 rounded-md bg-purple-600 text-white font-semibold mt-6 cursor-pointer">
+                  Go Back
+                </button>
+              </Link>
             </div>
           ) : (
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mt-4 md:mt-6 lg:mt-8">

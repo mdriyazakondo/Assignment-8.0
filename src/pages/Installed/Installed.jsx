@@ -35,8 +35,8 @@ const Installed = () => {
   };
 
   const sortedData = [...installedApps].sort((a, b) => {
-    if (sortOrder === "asc") return a.size - b.size;
-    if (sortOrder === "desc") return b.size - a.size;
+    if (sortOrder === "asc") return a.downloads - b.downloads;
+    if (sortOrder === "desc") return b.downloads - a.downloads;
     return 0;
   });
 
@@ -109,7 +109,10 @@ const Installed = () => {
                   <div className="flex items-center gap-3">
                     <p className="text-green-500 mb-4 flex items-center font-medium gap-1 text-sm md:text-xl">
                       <MdOutlineFileDownload className="h-5 w-5 " />
-                      {app.downloads}
+                      <span>
+                        {String(app.downloads).slice(0, 2)}
+                        {String(app.downloads).length > 7 ? "M" : "K"}
+                      </span>
                     </p>
                     <p className="text-amber-600 mb-4 flex items-center font-medium gap-1 text-sm md:text-xl">
                       <MdOutlineStar />

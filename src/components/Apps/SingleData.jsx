@@ -107,7 +107,7 @@ const SingleData = () => {
 
   return (
     <div className="bg-[#f5f5f5]">
-      <div className="max-w-7xl mx-5 md:mx-auto py-10">
+      <div className="max-w-7xl mx-5 md:mx-auto py-10 border-b border-gray-400">
         <div className="flex items-center justify-center gap-10 flex-col md:flex-row">
           <div className="w-full md:w-1/3">
             <img
@@ -120,7 +120,7 @@ const SingleData = () => {
             <div className="border-b border-gray-400 pb-4">
               <h2 className="text-4xl font-semibold mb-2">{title}</h2>
               <p className="text-gray-500 text-xl font-medium">
-                Developer:
+                Company:
                 <span className="text-[#6733e4] pl-2">{companyName}</span>
               </p>
             </div>
@@ -134,7 +134,10 @@ const SingleData = () => {
                 />
                 <p className="text-gray-500">Downloads</p>
                 <h3 className="text-2xl md:text-3xl lg:text-4xl font-bold text-black">
-                  {size}M
+                  <span>
+                    {String(downloads).slice(0, 2)}
+                    {String(downloads).length > 7 ? "M" : "K"}
+                  </span>
                 </h3>
               </div>
               <div className="flex flex-col items-center justify-center">
@@ -156,9 +159,10 @@ const SingleData = () => {
                 />
                 <p className="text-gray-500">Total Reviews</p>
                 <h3 className="text-2xl md:text-3xl lg:text-4xl font-bold text-black">
-                  {reviews >= 1000
-                    ? `${(reviews / 1000).toFixed(1)}k`
-                    : reviews}
+                  <span>
+                    {String(reviews).slice(0, 2)}
+                    {String(reviews).length > 7 ? "M" : "K"}
+                  </span>
                 </h3>
               </div>
             </div>
